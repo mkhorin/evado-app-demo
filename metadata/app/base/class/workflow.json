@@ -1,0 +1,190 @@
+{
+  "abstract": false,
+  "description": "Changing a state of a class object using transitions",
+  "label": "Workflow",
+  "attrs": [
+    {
+      "name": "_state",
+      "label": "State",
+      "type": "string",
+      "viewType": "state",
+      "description": "Current state",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "The current state of this object",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 10,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": true,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "text",
+      "label": "Text",
+      "type": "text",
+      "description": "This attribute is available for modification in the Draft state",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "This attribute is available for modification in the Draft state",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "rating",
+      "label": "Rating",
+      "type": "string",
+      "viewType": "radioList",
+      "description": "This attribute is available for modification in the Rating state",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "This attribute is available for modification in the Rating state",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 30,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "enums": [
+        {
+          "items": [
+            {
+              "value": "bad",
+              "text": "Bad",
+              "orderNumber": 10
+            },
+            {
+              "value": "good",
+              "text": "Good",
+              "orderNumber": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "_class",
+      "label": "Metadata class",
+      "type": "string",
+      "viewType": "class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 40,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": true,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ],
+  "states": [
+    {
+      "name": "draft",
+      "label": "Draft state",
+      "defaults": true,
+      "description": "Default state for new objects",
+      "view": "draft",
+      "readOnly": false
+    },
+    {
+      "name": "rating",
+      "label": "Rating state",
+      "defaults": false,
+      "description": "In this state, an object text can be rated",
+      "view": "rating",
+      "readOnly": false
+    },
+    {
+      "name": "archived",
+      "label": "Archived state",
+      "defaults": false,
+      "description": "In this state, an object is closed for changes",
+      "readOnly": true
+    }
+  ],
+  "transitions": [
+    {
+      "name": "rate",
+      "label": "Rate",
+      "description": "Go to rate",
+      "nullStartState": false,
+      "startStates": [
+        "draft"
+      ],
+      "finalState": "rating",
+      "orderNumber": 10
+    },
+    {
+      "name": "archive",
+      "label": "Archive",
+      "description": "This transition is available if rating value is not empty",
+      "hint": "Close for changes",
+      "nullStartState": false,
+      "startStates": [
+        "rating"
+      ],
+      "finalState": "archived",
+      "condition": [
+        "$notEmpty",
+        ".rating"
+      ],
+      "orderNumber": 20
+    },
+    {
+      "name": "edit",
+      "label": "Edit",
+      "description": "Go to editing",
+      "hint": "Go to editing",
+      "nullStartState": false,
+      "startStates": [
+        "rating",
+        "archived"
+      ],
+      "finalState": "draft",
+      "options": {
+        "confirmation": "Transition confirmation: Go back to editing this object?"
+      },
+      "orderNumber": 30
+    }
+  ]
+}

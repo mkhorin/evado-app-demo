@@ -9,6 +9,9 @@
  */
 Object.assign(Jam.I18n.defaults, {
 
+    'Attribute "Float" must be greater than attribute "Number"': 'Атрибут "Вещественное" должен быть больше, чем "Число"',
+
+    'Value should contain at least {min} chr. (sum String and Email lengths)': 'Значение должно содержать не менее {min} смв. (сумма длин атрибутов Строка и Email)',
 });
 
 /**
@@ -34,6 +37,147 @@ Jam.I18n.custom = {
  */
 Jam.I18n.meta = {
 
+    'Any': 'Любой',
+    'Archive': 'Архивировать',
+    'Archived state': 'Архивированное состояние',
+    'Article': 'Статья',
+    'Articles': 'Статьи',
+
+    'Back references from linked objects': 'Обратная ссылка из связанного объекта',
+    'Bad': 'Плохо',
+    'Behaviors': 'Поведения',
+    'Blue (with hint)': 'Синий (со всплывающей подсказкой)',
+    'Blue-black': 'Синие-чёрный',
+    'Blue-yellow': 'Синие-жёлтый',
+    'Boolean': 'Логическое',
+
+    'CSS classes are inherited from a column container': 'CSS классы унаследованы от контейнера колонок',
+    'Calculated values': 'Вычисляемые значения',
+    'Calculate the sum of all values of the Counter attribute of the Calculation source class': 'Вычислить сумму всех значений атрибута "Счётчик" класса Calculation source',
+    'Calculate the sum of the values of the previous attributes': 'Вычислить сумму значений предыдущих атрибутов',
+    'Calculation source': 'Источник вычислений',
+    'Categories': 'Категории',
+    'Category': 'Категория',
+    'Check an integer and a range of 10 - 100': 'Проверить целое число в диапазоне 10 - 100',
+    'Check an unique and required value': 'Проверить уникальность и обязательность значения',
+    'Check an unique email': 'Проверить уникальность email',
+    'Check min length as sum "String" and "Email" lengths': 'Проверить минимальную длину как сумму длин "Строки" и "Email"',
+    'Close for changes': 'Закрыть от изменений',
+    'Color': 'Цвет',
+    'Comments': 'Комментарии',
+    'Compare with attribute "Number"': 'Сравнение с атрибутом "Число"',
+    'Counter': 'Счётчик',
+    'Counter sum': 'Сумма счётчиков',
+    'Created at': 'Дата создания',
+    'Creation view': 'Представление создания',
+    'Creator': 'Создатель',
+    'Custom': 'Пользовательское',
+    'Custom date format from attribute options': 'Пользовательский формат даты из опций атрибута',
+
+    'Data source': 'Источник данных',
+    'Date': 'Дата',
+    'Date and time with time zone': 'Дата и время с часовым поясом',
+    'Date and time without time zone': 'Дата и время без часового пояса',
+    'Date of creation of this object': 'Дата создания этого объекта',
+    'Date of modification of this object': 'Дата модификации этого объекта',
+    'Date with time': 'Дата и время',
+    'Date with time zone (for example an event timestamp)': 'Дата с часовым поясом (например, метка времени события)',
+    'Date without time zone (for example a birthday)': 'Дата без часового пояса (например, дата рождения)',
+    'Dates': 'Даты',
+    'Draft state': 'Состояние черновика',
+    'Draft view': 'Представление черновика',
+
+    'Edit': 'Редактировать',
+    'Editing view': 'Представление редактирования',
+    'Editor': 'Редактор',
+    'Enumeration source': 'Источник перечислений',
+    'Enumerations': 'Перечисления',
+
+    'File': 'Файл',
+    'File ID in storage': 'Идентфикатор файла в хранилище',
+    'Filename is used when downloading': 'Имя файла используется при скачивании',
+    'Files': 'Файлы',
+    'First': 'Первый',
+    'First plus second': 'Первый плюс второй',
+    'Float': 'Вещественное',
+
+    'Go to editing': 'Перейти к редактированию',
+    'Good': 'Хорошо',
+    'Group is loaded on expanding': 'Группа загружаемая при раскрытии',
+    'Grouping attributes': 'Группировка атрибутов',
+
+    'Hash': 'Хэш',
+
+    'Integer': 'Целочисленное',
+    'Integer value for calculation': 'Целое значение для вычислений',
+    'Integers with default value': 'Целые числа со значением по умолчанию',
+
+    'Local date': 'Локальная дата',
+    'Local date with time': 'Докальная дата и время',
+
+    'Metadata class': 'Класс метаданных',
+    'Multiline text value': 'Многострочное текстовое значение',
+    'Multiple references to linked objects': 'Связь с множеством объектов',
+
+    'Name': 'Название',
+    'Nested group (all group attributes become read-only)': 'Вложенная группа (все атрибуты группы только для чтения)',
+    'Number': 'Число',
+
+    'Object identifier': 'Идентификатор объекта',
+    'Only this attribute is in the creation view': 'Только этот атрибут в представлении создания',
+    'Order number': 'Порядковый номер',
+
+    'Published': 'Опубликовано',
+
+    'Radio list view': 'Представление список radio-кнопок',
+    'Rate': 'Оценить',
+    'Rating': 'Оценка',
+    'Rating state': 'Состояние оценки',
+    'Rating view': 'Представление оценки',
+    'Red': 'Красный',
+    'Red-black': 'Красно-чёрный',
+    'Red-yellow': 'Красно-желтый',
+    'Reference types': 'Ссылочные типы',
+    'Required string value': 'Обязательное строковое значение',
+
+    'Second': 'Второй',
+    'Select one value from the list': 'Выберите одно значение из списка',
+    'Select box': 'Список выбора',
+    'Service data': 'Служебные данные',
+    'Service data of file hash': 'Служебное значение хэша файла',
+    'Service data of file size': 'Служебное значение размера файла',
+    'Service data of file type': 'Служебное значение типа файла',
+    'Shade': 'Оттенок',
+    'Simple data': 'Простые данные',
+    'Simple group': 'Простая группа',
+    'Single reference with a select box view to a linked object': 'Одиночная связь с представлением список выбора',
+    'Size': 'Размер',
+    'State': 'Состояние',
+    'String': 'Строка',
+    'System user who created this object': 'Системный пользователь, создавший объект',
+    'System user who updated this object': 'Системный пользователь, изменивший объект',
+
+    'Tab 1': 'Вкладка 1',
+    'Tab 2': 'Вкладка 2',
+    'Tab is loaded on activation': 'Вкладка загружаемая при активации',
+    'Text': 'Текст',
+    'The current list of values depends on the value of the Color attribute': 'Текущий список значений зависит от значения атрибута "Цвет"',
+    'The current state of this object': 'Текущее состояние объекта',
+    'The source of values are objects of the Enumeration source class (shown only published)': 'Источником значений являются объекты класса Enumeration source (показаны только опубликованные)',
+    'This attribute is available for modification in the Draft state': 'Этот атрибут доступен для изменения в состоянии черновика',
+    'This attribute is available for modification in the Rating state': 'Этот атрибут доступен для изменения в состоянии оценки',
+    'This attribute is read-only in the edit view': 'Этот атрибут только для чтения в представлении редактирования',
+    'This is a required attribute in the edit view': 'Этот атрибут обязательный в представлении редактирования',
+    'Transition confirmation: Go back to editing this object?': 'Подтверждение перехода: Вернуться к редактированию этого объекта?',
+    'Type': 'Тип',
+
+    'Updated at': 'Дата изменения',
+
+    'Validation': 'Валидация',
+    'Value is set via class custom behavior': 'Значение устанавливается через пользовательское поведение класса',
+    'Views': 'Представления',
+
+    'Workflow': 'Бизнес-процесс'
 };
 Jam.I18n['meta.class.className'] = {
 

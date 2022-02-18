@@ -1,0 +1,165 @@
+{
+  "label": "Sidebar menu",
+  "description": "Sidebar navigation section",
+  "nodes": [
+    {
+      "name": "simpleData",
+      "label": "Simple data",
+      "orderNumber": 10,
+      "class": "simpleData"
+    },
+    {
+      "parent": "enumerations",
+      "name": "enumerationSource",
+      "label": "Enumeration source",
+      "description": "<div lang=\"en\">\nHelper class as a data source for enumerations.\n</div>\n<div lang=\"ru\">\nВспомогательный класс как источник данных для перечислений.\n</div>",
+      "orderNumber": 10,
+      "class": "enumerationSource",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "parent": "calculated",
+      "name": "calculationSource",
+      "label": "Calculation source",
+      "description": "<div lang=\"en\">\nHelper class as a data source for calculated values.\n</div>\n<div lang=\"ru\">\nВспомогательный класс как источник данных для вычисляемых значений.\n</div>",
+      "orderNumber": 10,
+      "class": "calculationSource",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "parent": "references",
+      "name": "articles",
+      "label": "Articles",
+      "description": "<div lang=\"en\">\nReference types define relationships between objects. The link can be with one or more objects.\n</div>\n<div lang=\"ru\">\nСсылочные типы определяют связь между объектами. Связь может быть с одним или множеством объектов.\n</div>",
+      "orderNumber": 10,
+      "class": "refArticle",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "dates",
+      "label": "Dates",
+      "description": "<div lang=\"en\">\nDates are stored in database in a general way, but are displayed depending on their view type.\n</div>\n<div lang=\"ru\">\nДаты хранятся в базе данных в общем виде, но отображаются в зависимости от типа их представления.\n</div>",
+      "orderNumber": 20,
+      "class": "dates",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "parent": "references",
+      "name": "categories",
+      "label": "Categories",
+      "orderNumber": 20,
+      "class": "refCategory"
+    },
+    {
+      "name": "enumerations",
+      "label": "Enumerations",
+      "description": "<div lang=\"en\">\nEnumerations provide a choice of one of the defined values. Each value can have a label and a hint.\n</div>\n<div lang=\"ru\">\nПеречисления предоставляют выбор одного из определенных значений. Каждое значение может иметь ярлык и подсказку.\n</div>",
+      "orderNumber": 30,
+      "class": "enumerations",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "parent": "references",
+      "name": "comments",
+      "label": "Comments",
+      "orderNumber": 30,
+      "class": "refComment"
+    },
+    {
+      "name": "calculated",
+      "label": "Calculated values",
+      "description": "<div lang=\"en\">\nCalculating values are not stored, but are obtained from a given expression.\n</div>\n<div lang=\"ru\">\nВычисляемые значения не хранятся, а рассчитываются из заданного выражения.\n</div>",
+      "orderNumber": 40,
+      "class": "calculated",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "serviceData",
+      "label": "Service data",
+      "description": "<div lang=\"en\">\nService data is always stored in objects, regardless of the presence of attributes. For users, this data is read-only.\n</div>\n<div lang=\"ru\">\nСлужебные данные всегда сохраняются в объекте, вне зависимости от наличия атрибутов. Для пользователей эти данные доступны только для чтения.\n</div>",
+      "orderNumber": 50,
+      "class": "serviceData",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "references",
+      "label": "Reference types",
+      "orderNumber": 60,
+      "type": "container"
+    },
+    {
+      "name": "grouping",
+      "label": "Grouping attributes",
+      "description": "<div lang=\"en\">\nGroups combine attributes, allowing you to manage many at once.\n<br>In addition, a group can change some of the properties of the attributes included in it.\n</div>\n<div lang=\"ru\">\nГруппы объединяют атрибуты, позволяя управлять множеством за раз.\n<br>Кроме того, группа может изменять некоторые свойства атрибутов, включенных в нее.\n</div>",
+      "orderNumber": 70,
+      "class": "grouping",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "validation",
+      "label": "Validation",
+      "description": "<div lang=\"en\">\nValidation rules define object value checks.\n<br>Validators can be built-in (for example, data type, reguired and unique) or be set explicitly on the \"Validators\" tab.\n</div>\n<div lang=\"ru\">\nПравила валидации определяют необходимые проверки значений объектов.\n<br>Валидаторы могут быть встроенными (например, тип данных, обязательность и уникальность) или задаваться явно на вкладке \"Валидаторы\".\n</div>",
+      "orderNumber": 80,
+      "class": "validation",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "views",
+      "label": "Views",
+      "description": "<div lang=\"en\">\n<p>Views override attributes and properties of classes for special cases. By default, the following are used:</p>\n<ul>\n<li><code>list</code>  is a view of objects in a list</li>\n<li><code>create</code> is an object creation view</li>\n<li><code>edit</code> is an object editing view</li>\n<li><code>eager</code> is a view of a greedily loaded object</li>\n</ul>\n<p>Access to objects can be restricted by security at the view level. For example, it is allowed to read objects only in the list view.</p>\n</div>\n<div lang=\"ru\">\n<p>Представления переопределяют атрибуты и свойства классов для особых случаев. По умолчанию используются следующие:</p>\n<ul>\n<li><code>list</code> - представление объектов в списке</li>\n<li><code>create</code> - представление объекта при создании</li>\n<li><code>edit</code> - представление объекта при редактировании</li>\n<li><code>eager</code> - представление объекта при жадной загрузке</li>\n</ul>\n<p>Доступ к объектам может быть ограничен безопасностью на уровне представлений. Например, разрешается просматривать объекты только в представлении списка.</p>\n</div>",
+      "orderNumber": 90,
+      "class": "views",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "behaviors",
+      "label": "Behaviors",
+      "description": "<div lang=\"en\">\n<p>Behaviors extend a standard functionality of classes and views.\n<br>Behavior is a JS class that defines methods for handling object lifecycle events:\n<ul>\n<li><code>afterDefaultValue</code></li>\n<li><code>beforeValidate</code>, <code>afterValidate</code></li>\n<li><code>beforeInsert</code>, <code>afterInsert</code></li>\n<li><code>beforeUpdate</code>, <code>afterUpdate</code></li>\n<li><code>beforeTransit</code>, <code>afterTransit</code></li>\n<li><code>beforeDelete</code>, <code>afterDelete</code></li>\n</ul>\n<p>Multiple behaviors can be included in one class or view.</p>\n</div>\n<div lang=\"ru\">\n<p>Поведения расширяют стандартный функционал классов и представлений.\n<br>Поведение - это JS-класс, в котором определены методы обработки событий жизненного цикла объекта:</p>\n<ul>\n<li><code>afterDefaultValue</code></li>\n<li><code>beforeValidate</code>, <code>afterValidate</code></li>\n<li><code>beforeInsert</code>, <code>afterInsert</code></li>\n<li><code>beforeUpdate</code>, <code>afterUpdate</code></li>\n<li><code>beforeTransit</code>, <code>afterTransit</code></li>\n<li><code>beforeDelete</code>, <code>afterDelete</code></li>\n</ul>\n<p>В один класс или представление может быть добавлено сразу несколько поведений.</p>\n</div>",
+      "orderNumber": 100,
+      "class": "behaviors",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "files",
+      "label": "Files",
+      "description": "<div lang=\"en\">\n<p>Working with files is implemented through a special class behavior that interacts with file storage.</p>\n<p>A file attribute is necessary to identify a file in the storage. If necessary, additional attributes are created (for example, file name, size, etc.) \n<br>A special view of the file attribute allows users to upload files to app.</p>\n</div>\n<div lang=\"ru\">\n<p>Работа с файлами реализована через специальное поведение класса, которое взаимодействует с файловым хранилищем. </p>\n<p>Обязательный файловый атрибут - это идентификатора файла в хранилище. При необходимости, создаются дополнительные атрибуты (например, название файла, размер  и тому подобное). \n<br>Особое представление файлового атрибута позволяет пользователям загружать файлы в приложение.</p>\n</div>",
+      "orderNumber": 110,
+      "class": "file",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "workflow",
+      "label": "Workflow",
+      "description": "<div lang=\"en\">\n<p>Each object of a class can be in a certain state. The state can have its own view for objects.\n<br>The current object state is stored in the service attribute <code>_state</code>.</p>\n<p>The object states are changed using transitions.\n<br>The transitions can be limited by various conditions, including app security system.</p>\n</div>\n<div lang=\"ru\">\n<p>Каждый объект класса может находиться в определенном состоянии. Состояние может иметь собственное представление для объектов.\n<br>Текущее состояние объекта хранится в служебном атрибуте <code>_state</code>.</p>\n<p>Изменение состояния осуществляется с помощью переходов.\n<br>Переходы могут быть ограничены различными условиями, в том числе и системой безопасности приложения.</p>\n</div>",
+      "orderNumber": 120,
+      "class": "workflow",
+      "options": {
+        "showDescription": true
+      }
+    }
+  ]
+}

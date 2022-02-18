@@ -1,0 +1,191 @@
+{
+  "abstract": false,
+  "description": "Checking values for compliance with the specified rules",
+  "header": ".string",
+  "label": "Validation",
+  "attrs": [
+    {
+      "name": "string",
+      "label": "String",
+      "type": "string",
+      "description": "Check an unique and required value",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "Check an unique and required value",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 10,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": true
+    },
+    {
+      "name": "number",
+      "label": "Number",
+      "type": "float",
+      "description": "Check an integer and a range of 10 - 100",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "Check an integer and a range of 10 - 100",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "rules": [
+        {
+          "type": "number",
+          "orderNumber": 10,
+          "description": "Check minimum and maximum values",
+          "integerOnly": true,
+          "max": 100,
+          "min": 10
+        }
+      ]
+    },
+    {
+      "name": "float",
+      "label": "Float",
+      "type": "float",
+      "description": "Compare with attribute \"Number\"",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "Compare with attribute \"Number\"",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 30,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "rules": [
+        {
+          "type": "condition",
+          "orderNumber": 10,
+          "description": "Check that attribute \"Float\" is greater than attribute \"Number\"",
+          "message": "Attribute \"Float\" must be greater than attribute \"Number\"",
+          "condition": [
+            "$>",
+            ".float",
+            ".number"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "email",
+      "label": "Email",
+      "type": "string",
+      "description": "Check an unique email",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "Check an unique email",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 40,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": true,
+      "rules": [
+        {
+          "type": "email",
+          "orderNumber": 10,
+          "description": "Check email"
+        }
+      ]
+    },
+    {
+      "name": "custom",
+      "label": "Custom",
+      "type": "string",
+      "description": "Check with a custom validator",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "Check min length as sum \"String\" and \"Email\" lengths",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 50,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "rules": [
+        {
+          "type": "custom",
+          "orderNumber": 10,
+          "description": "Check with a custom class",
+          "config": {
+            "Class": "component/meta/validator/MinLengthCustom"
+          }
+        }
+      ]
+    },
+    {
+      "name": "_class",
+      "label": "Metadata class",
+      "type": "string",
+      "viewType": "class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 60,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": true,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ]
+}

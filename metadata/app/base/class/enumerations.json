@@ -1,0 +1,239 @@
+{
+  "abstract": false,
+  "description": "Choosing from enumerated values",
+  "label": "Enumerations",
+  "attrs": [
+    {
+      "name": "selectbox",
+      "label": "Select box",
+      "type": "string",
+      "viewType": "select",
+      "description": "Select one value from the list",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "Select one value from the list",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 10,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "enums": [
+        {
+          "items": [
+            {
+              "value": "first",
+              "text": "First value",
+              "orderNumber": 10
+            },
+            {
+              "value": "second",
+              "text": "Second value (with hint)",
+              "hint": "Second value hint",
+              "orderNumber": 20
+            },
+            {
+              "value": "third",
+              "text": "Third value",
+              "orderNumber": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "color",
+      "label": "Color",
+      "type": "string",
+      "viewType": "radioList",
+      "description": "Radio list view",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "Radio list view",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "enums": [
+        {
+          "items": [
+            {
+              "value": "red",
+              "text": "Red",
+              "orderNumber": 10
+            },
+            {
+              "value": "blue",
+              "text": "Blue (with hint)",
+              "hint": "Blue hint",
+              "orderNumber": 20
+            },
+            {
+              "value": "any",
+              "text": "Any",
+              "orderNumber": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shade",
+      "label": "Shade",
+      "type": "string",
+      "viewType": "radioList",
+      "description": "The current list of values depends on the value of the Color attribute",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "The current list of values depends on the value of the Color attribute",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 30,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "enums": [
+        {
+          "condition": {
+            "color": [
+              "red",
+              "any"
+            ]
+          },
+          "items": [
+            {
+              "value": "redYellow",
+              "text": "Red-yellow",
+              "orderNumber": 10
+            },
+            {
+              "value": "redBlack",
+              "text": "Red-black",
+              "orderNumber": 20
+            }
+          ]
+        },
+        {
+          "condition": {
+            "color": [
+              "blue",
+              "any"
+            ]
+          },
+          "items": [
+            {
+              "value": "blueYellow",
+              "text": "Blue-yellow",
+              "orderNumber": 10
+            },
+            {
+              "value": "blueBlack",
+              "text": "Blue-black",
+              "orderNumber": 20
+            }
+          ]
+        },
+        {
+          "condition": [
+            "empty",
+            "color"
+          ],
+          "items": [
+            {
+              "value": "none",
+              "text": "None",
+              "orderNumber": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dataSource",
+      "label": "Data source",
+      "type": "string",
+      "viewType": "select",
+      "description": "Source of the values is the Enumeration source class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "The source of values are objects of the Enumeration source class (shown only published)",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 40,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "enums": [
+        {
+          "attr": "name",
+          "class": "enumerationSource",
+          "queryFilter": {
+            "published": true
+          },
+          "items": []
+        }
+      ]
+    },
+    {
+      "name": "_class",
+      "label": "Metadata class",
+      "type": "string",
+      "viewType": "class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 50,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": true,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ]
+}

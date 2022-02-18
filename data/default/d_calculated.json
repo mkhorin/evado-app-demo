@@ -1,0 +1,22 @@
+[
+  {
+    "_id": {
+      "$oid": "620213d1b12fce0208805d16"
+    },
+    "_class": "calculated",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "first": 250,
+    "second": 450,
+    "_createdAt": {
+      "$date": "2022-02-08T06:55:13.039Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-08T06:55:51.817Z"
+    }
+  }
+]

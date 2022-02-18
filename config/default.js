@@ -2,25 +2,25 @@
 
 module.exports = {
 
-    title: 'Boilerplate',
+    title: 'Demo',
 
     components: {
         'db': {
             settings: {
-                'database': process.env.MONGO_NAME || 'evado-boilerplate',
+                'database': process.env.MONGO_NAME || 'evado-demo',
             }
         },
         'cookie': {
-            secret: 'boilerplate.evado.sign' // key to sign cookie
+            secret: 'demo.evado.sign'
         },
         'session': {
-            secret: 'boilerplate.evado.sign'  // key to sign session ID cookie
+            secret: 'demo.evado.sign'
         },
         'i18n': {
             language: 'en'
         },
         'router': {
-            // defaultModule: 'office'
+            defaultModule: 'office'
         },
         's3Storage': {
             Class: require('evado/component/file/S3Storage'),
@@ -54,7 +54,7 @@ module.exports = {
             Class: require('evado-module-studio/Module')
         },
         'office': {
-            Class: require('evado-module-office/Module')
+            Class: require('../module/office/Module')
         },
         'account': {
             Class: require('evado-module-account/Module')
@@ -74,10 +74,10 @@ module.exports = {
     listeners: require('./default-listeners'),
     sideMenu: require('./default-sideMenu'),
     params: {
-        'enablePasswordChange': true,
+        'enablePasswordChange': false,
         'enablePasswordReset': false,
         'enableSignUp': false,
         'enableSignUpVerification': false,
-        'languageToggle': false
+        'languageToggle': true
     }
 };

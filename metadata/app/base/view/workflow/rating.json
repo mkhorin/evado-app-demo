@@ -1,0 +1,24 @@
+{
+  "label": "Rating view",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "_state",
+      "orderNumber": 10
+    },
+    {
+      "name": "text",
+      "orderNumber": 20,
+      "readOnly": true
+    },
+    {
+      "name": "rating",
+      "orderNumber": 30,
+      "required": true
+    },
+    {
+      "name": "_class",
+      "orderNumber": 40
+    }
+  ]
+}

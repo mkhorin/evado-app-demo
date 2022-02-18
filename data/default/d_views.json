@@ -1,0 +1,19 @@
+[
+  {
+    "_id": {
+      "$oid": "6209b39f245deff6ab76e299"
+    },
+    "_class": "views",
+    "_creator": null,
+    "text": "Vestibulum convallis dapibus",
+    "_createdAt": {
+      "$date": "2022-02-14T01:42:55.296Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-02-14T01:43:04.957Z"
+    },
+    "boolean": true,
+    "number": 123
+  }
+]

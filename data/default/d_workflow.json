@@ -1,0 +1,50 @@
+[
+  {
+    "_id": {
+      "$oid": "62102dbcee06b1cc5cc28954"
+    },
+    "_state": "archived",
+    "_class": "workflow",
+    "_creator": null,
+    "text": "Sed auctor pellentesque risus",
+    "_createdAt": {
+      "$date": "2022-02-18T23:37:32.285Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-02-18T23:40:33.198Z"
+    },
+    "_transiting": null,
+    "rating": "bad"
+  },
+  {
+    "_id": {
+      "$oid": "62102e37ee06b1cc5cc28956"
+    },
+    "_state": "rating",
+    "_class": "workflow",
+    "_creator": null,
+    "text": "Lorem ipsum dolor sit amet consectetuer",
+    "_createdAt": {
+      "$date": "2022-02-18T23:39:35.003Z"
+    },
+    "_transiting": null,
+    "_updatedAt": {
+      "$date": "2022-02-18T23:41:51.403Z"
+    },
+    "_editor": null,
+    "rating": "good"
+  },
+  {
+    "_id": {
+      "$oid": "62102e93ee06b1cc5cc28957"
+    },
+    "_state": "draft",
+    "_class": "workflow",
+    "_creator": null,
+    "text": "Cum et accumsan nec nibh",
+    "_createdAt": {
+      "$date": "2022-02-18T23:41:07.425Z"
+    }
+  }
+]

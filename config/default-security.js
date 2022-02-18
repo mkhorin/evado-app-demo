@@ -5,8 +5,11 @@ const parent = require('evado/config/default-security');
 module.exports = {
 
     metaPermissions: [{
-        description: 'Full access to data',
-        roles: 'administrator',
+        description: 'Full access to all',
+        roles: [
+            'administrator',
+            'guest'
+        ],
         type: 'allow',
         actions: 'all',
         targets: {
@@ -48,15 +51,12 @@ module.exports = {
         },
         'guest': {
             label: 'Guest',
-            description: 'Auto-assigned role for anonymous users'
+            description: 'Auto-assigned role for anonymous users',
+            children: 'administrator'
         },
         'user': {
             label: 'User',
             description: 'Default role for authenticated users',
-            children: [
-                'moduleOffice',
-                'moduleApiBaseUpload'
-            ]
         }
     },
 

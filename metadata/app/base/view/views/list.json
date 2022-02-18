@@ -1,0 +1,15 @@
+{
+  "label": "List view",
+  "description": "A view for displaying objects in lists",
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "text",
+      "orderNumber": 10
+    },
+    {
+      "name": "number",
+      "orderNumber": 20
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "_id": {
+      "$oid": "62031b674ddc823b6e4ac953"
+    },
+    "_class": "refArticle",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "text": "Article 1",
+    "category": {
+      "$oid": "62031b3c4ddc823b6e4ac950"
+    },
+    "categories": [
+      {
+        "$oid": "62031b3c4ddc823b6e4ac950"
+      },
+      {
+        "$oid": "62031b454ddc823b6e4ac951"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2022-02-09T01:39:51.546Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-09T01:45:48.285Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62031c5a4ddc823b6e4ac954"
+    },
+    "_class": "refArticle",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "text": "Article 2",
+    "category": {
+      "$oid": "62031b4b4ddc823b6e4ac952"
+    },
+    "categories": [
+      {
+        "$oid": "62031b454ddc823b6e4ac951"
+      },
+      {
+        "$oid": "62031b3c4ddc823b6e4ac950"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2022-02-09T01:43:54.007Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-09T01:46:23.144Z"
+    }
+  }
+]

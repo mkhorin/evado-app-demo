@@ -1,0 +1,63 @@
+{
+  "abstract": false,
+  "description": "Behaviors extend the standard functionality of classes and views",
+  "label": "Behaviors",
+  "attrs": [
+    {
+      "name": "string",
+      "label": "String",
+      "type": "string",
+      "description": "Value is set via class custom behavior",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 10,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": true,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "hint": "Value is set via class custom behavior"
+    },
+    {
+      "name": "_class",
+      "label": "Metadata class",
+      "type": "string",
+      "viewType": "class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": true,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ],
+  "behaviors": [
+    {
+      "type": "custom",
+      "orderNumber": 10,
+      "config": {
+        "Class": "component/meta/behavior/CustomBehavior"
+      }
+    }
+  ]
+}

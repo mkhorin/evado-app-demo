@@ -1,0 +1,21 @@
+[
+  {
+    "_id": {
+      "$oid": "6209b3d2245deff6ab76e29a"
+    },
+    "_class": "validation",
+    "_creator": null,
+    "string": "Vestibulum",
+    "number": 22,
+    "float": 44.06,
+    "email": "demo@evado.nt",
+    "custom": "Cras lobortis orci malesuada",
+    "_createdAt": {
+      "$date": "2022-02-14T01:43:46.419Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-02-14T01:45:29.854Z"
+    }
+  }
+]

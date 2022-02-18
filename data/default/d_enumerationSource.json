@@ -1,0 +1,65 @@
+[
+  {
+    "_id": {
+      "$oid": "6201fc2b4882f152edf61f51"
+    },
+    "_class": "enumerationSource",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "name": "First item",
+    "published": true,
+    "_createdAt": {
+      "$date": "2022-02-08T05:14:19.588Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-08T05:59:19.024Z"
+    },
+    "orderNumber": 10
+  },
+  {
+    "_id": {
+      "$oid": "6201fc334882f152edf61f52"
+    },
+    "_class": "enumerationSource",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "name": "Second item",
+    "published": true,
+    "_createdAt": {
+      "$date": "2022-02-08T05:14:27.351Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-08T05:59:14.452Z"
+    },
+    "orderNumber": 20
+  },
+  {
+    "_id": {
+      "$oid": "6201fc424882f152edf61f53"
+    },
+    "_class": "enumerationSource",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "name": "Third item (not published)",
+    "published": false,
+    "_createdAt": {
+      "$date": "2022-02-08T05:14:42.982Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-08T05:59:24.311Z"
+    },
+    "orderNumber": 30
+  }
+]

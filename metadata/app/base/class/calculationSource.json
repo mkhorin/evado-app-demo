@@ -1,0 +1,53 @@
+{
+  "abstract": false,
+  "description": "Helper for calculated values",
+  "label": "Calculation source",
+  "attrs": [
+    {
+      "name": "counter",
+      "label": "Counter",
+      "type": "integer",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "defaultValue": 10,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 10,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "_class",
+      "label": "Metadata class",
+      "type": "string",
+      "viewType": "class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": true,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ]
+}

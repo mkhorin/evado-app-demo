@@ -1,0 +1,5 @@
+
+:root:lang(en) :lang(ru),
+:root:lang(ru) :lang(en) {
+    display: none !important;
+}

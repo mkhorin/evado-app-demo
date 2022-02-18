@@ -1,0 +1,41 @@
+[
+  {
+    "_id": {
+      "$oid": "62021099b12fce0208805d0f"
+    },
+    "_class": "calculationSource",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "counter": 10,
+    "_createdAt": {
+      "$date": "2022-02-08T06:41:29.792Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6202109fb12fce0208805d10"
+    },
+    "_class": "calculationSource",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "counter": 20,
+    "_createdAt": {
+      "$date": "2022-02-08T06:41:35.616Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "620210a8b12fce0208805d11"
+    },
+    "_class": "calculationSource",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "counter": 40,
+    "_createdAt": {
+      "$date": "2022-02-08T06:41:44.457Z"
+    }
+  }
+]

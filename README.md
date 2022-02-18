@@ -1,6 +1,6 @@
-# Evado Boilerplate App
+# Evado Demo
 
-Lightweight and feature-rich template built on
+Presentation of the main features of the 
 [Evado Declarative Framework](https://github.com/mkhorin/evado)
 for rapid web app development.
 
@@ -47,12 +47,3 @@ node console/start
 ## Usage
 
 Web interface `http://localhost:3000`
-
-Sign in as administrator:
-```sh
-Email: a@a.a
-Password: 123456
-```
-
-## Tutorial
-- [Build an App Without Coding](http://nervebit.com)

@@ -1,0 +1,10 @@
+<!-- demo/_meta/attr/view/class -->
+<%
+const cls = model.class.meta.getClass(model.get(attr));
+if (cls) {
+    const value = _escape(cls.title);
+    const url =`/studio/class?frame=${encodeURIComponent('/studio/class/update?id=')}${studioClassId}`;
+    model.setDisplayValue(attr, `<a href="${url}" target="_blank">${value}</a> <span class="text-secondary">(${cls.name})</span>`);
+}
+%>
+<%- include(_view.get('_meta/attr/static'), {formatted: true}) %>

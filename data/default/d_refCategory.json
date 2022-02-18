@@ -1,0 +1,41 @@
+[
+  {
+    "_id": {
+      "$oid": "62031b3c4ddc823b6e4ac950"
+    },
+    "_class": "refCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "name": "First category",
+    "_createdAt": {
+      "$date": "2022-02-09T01:39:08.733Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62031b454ddc823b6e4ac951"
+    },
+    "_class": "refCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "name": "Second category",
+    "_createdAt": {
+      "$date": "2022-02-09T01:39:17.050Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62031b4b4ddc823b6e4ac952"
+    },
+    "_class": "refCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "name": "Third category",
+    "_createdAt": {
+      "$date": "2022-02-09T01:39:23.776Z"
+    }
+  }
+]

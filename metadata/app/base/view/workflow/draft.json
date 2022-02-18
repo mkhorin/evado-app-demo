@@ -1,0 +1,19 @@
+{
+  "label": "Draft view",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "_state",
+      "orderNumber": 10
+    },
+    {
+      "name": "text",
+      "orderNumber": 20,
+      "required": true
+    },
+    {
+      "name": "_class",
+      "orderNumber": 40
+    }
+  ]
+}

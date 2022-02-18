@@ -1,0 +1,27 @@
+{
+  "label": "Editing view",
+  "description": "<div lang=\"en\">A view for displaying an object when editing it</div>\n<div lang=\"ru\">Представление для отображения объекта при редактировании</div>",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "text",
+      "hint": "This attribute is read-only in the edit view",
+      "orderNumber": 10,
+      "readOnly": true
+    },
+    {
+      "name": "number",
+      "hint": "This is a required attribute in the edit view",
+      "orderNumber": 20,
+      "required": true
+    },
+    {
+      "name": "boolean",
+      "orderNumber": 30
+    },
+    {
+      "name": "_class",
+      "orderNumber": 40
+    }
+  ]
+}

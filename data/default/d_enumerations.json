@@ -1,0 +1,24 @@
+[
+  {
+    "_id": {
+      "$oid": "6202068097000b9de56a26ee"
+    },
+    "_class": "enumerations",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "selectbox": "third",
+    "color": "blue",
+    "shade": "blueBlack",
+    "dataSource": "Second item",
+    "_createdAt": {
+      "$date": "2022-02-08T05:58:24.656Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-08T05:59:37.873Z"
+    }
+  }
+]

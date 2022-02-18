@@ -1,0 +1,16 @@
+{
+  "label": "Creation view",
+  "description": "<div lang=\"en\">A view for displaying an object when it is created</div>\n<div lang=\"ru\">Представление для отображения объекта при создании</div>",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "text",
+      "hint": "Only this attribute is in the creation view",
+      "orderNumber": 10
+    },
+    {
+      "name": "_class",
+      "orderNumber": 40
+    }
+  ]
+}

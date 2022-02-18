@@ -1,0 +1,25 @@
+[
+  {
+    "_id": {
+      "$oid": "6202073597000b9de56a26ef"
+    },
+    "_class": "simpleData",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "integer": 25,
+    "string": "Lorem ipsum",
+    "float": 42.75,
+    "boolean": true,
+    "text": "Semper gravida dictumst ut cursus. \nUrna Nulla dui mus sodales nascetur augue.\nFelis egestas consectetuer nulla.",
+    "_createdAt": {
+      "$date": "2022-02-08T06:01:25.732Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-08T06:02:12.747Z"
+    }
+  }
+]

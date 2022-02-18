@@ -1,0 +1,90 @@
+[
+  {
+    "_id": {
+      "$oid": "62031c984ddc823b6e4ac955"
+    },
+    "_class": "refComment",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "article": {
+      "$oid": "62031b674ddc823b6e4ac953"
+    },
+    "message": "Comment 1",
+    "_createdAt": {
+      "$date": "2022-02-09T01:44:56.348Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-09T01:45:10.017Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62031ca24ddc823b6e4ac956"
+    },
+    "_class": "refComment",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "article": {
+      "$oid": "62031b674ddc823b6e4ac953"
+    },
+    "message": "Comment 2",
+    "_createdAt": {
+      "$date": "2022-02-09T01:45:06.004Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-09T01:45:10.019Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62031cbc4ddc823b6e4ac957"
+    },
+    "_class": "refComment",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "article": {
+      "$oid": "62031c5a4ddc823b6e4ac954"
+    },
+    "message": "Comment 3",
+    "_createdAt": {
+      "$date": "2022-02-09T01:45:32.457Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-09T01:45:56.687Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62031cca4ddc823b6e4ac958"
+    },
+    "_class": "refComment",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "article": {
+      "$oid": "62031c5a4ddc823b6e4ac954"
+    },
+    "message": "Comment 4",
+    "_createdAt": {
+      "$date": "2022-02-09T01:45:46.988Z"
+    },
+    "_editor": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "_updatedAt": {
+      "$date": "2022-02-09T01:46:04.581Z"
+    }
+  }
+]
