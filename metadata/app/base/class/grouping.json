@@ -263,11 +263,11 @@
       "name": "nested",
       "label": "Nested group (all group attributes become read-only)",
       "loadable": false,
+      "description": "All group attributes become read-only",
       "orderNumber": 1050,
       "parent": "simple",
       "readOnly": true,
-      "required": false,
-      "description": "All group attributes become read-only"
+      "required": false
     },
     {
       "name": "loadable",

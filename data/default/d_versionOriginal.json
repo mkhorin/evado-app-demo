@@ -1,0 +1,25 @@
+[
+  {
+    "_id": {
+      "$oid": "621498cf756263791f376b98"
+    },
+    "_class": "versionOriginal",
+    "_creator": null,
+    "text": "Arcu tincidunt diam elit \nMaecenas lobortis felis nunc ligula",
+    "_createdAt": {
+      "$date": "2022-02-22T08:03:27.587Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6214991f756263791f376b99"
+    },
+    "_class": "versionLatest",
+    "_creator": null,
+    "text": "Lorem ipsum dolor sit",
+    "boolean": true,
+    "_createdAt": {
+      "$date": "2022-02-22T08:04:47.908Z"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "_id": {
+      "$oid": "621570034867fd7960680539"
+    },
+    "_class": "inheritGrandchild",
+    "_creator": null,
+    "parent": "Default value from child",
+    "child": "Curabitur justo id condimentum",
+    "grandchild": "Tempus malesuada consequat",
+    "_createdAt": {
+      "$date": "2022-02-22T23:21:39.632Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6215701b4867fd796068053a"
+    },
+    "_class": "inheritChild",
+    "_creator": null,
+    "parent": "Default value from child",
+    "child": "Vestibulum nibh justo",
+    "_createdAt": {
+      "$date": "2022-02-22T23:22:03.095Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "621570384867fd796068053b"
+    },
+    "_class": "inheritParent",
+    "_creator": null,
+    "parent": "Ante tristique tincidunt",
+    "_createdAt": {
+      "$date": "2022-02-22T23:22:32.135Z"
+    }
+  }
+]

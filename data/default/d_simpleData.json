@@ -15,11 +15,12 @@
     "_createdAt": {
       "$date": "2022-02-08T06:01:25.732Z"
     },
-    "_editor": {
-      "$oid": "6201f95bf0dce7500048cdca"
-    },
+    "_editor": null,
     "_updatedAt": {
-      "$date": "2022-02-08T06:02:12.747Z"
+      "$date": "2022-02-22T09:00:07.856Z"
+    },
+    "json": {
+      "key": "value"
     }
   }
 ]

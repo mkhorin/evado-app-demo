@@ -1,0 +1,39 @@
+{
+  "abstract": false,
+  "description": "Direct descendant of the Parent class",
+  "label": "Child class",
+  "parent": "inheritParent",
+  "attrs": [
+    {
+      "name": "parent",
+      "createOnRead": false,
+      "hint": "Attribute from the Parent class. Default value is overridden in the Child class",
+      "signed": false,
+      "defaultValue": "Default value from child"
+    },
+    {
+      "name": "child",
+      "label": "Child attribute",
+      "type": "string",
+      "description": "Attribute from the Child class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "Attribute from the Child class",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ]
+}

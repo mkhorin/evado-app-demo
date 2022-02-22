@@ -1,0 +1,32 @@
+{
+  "abstract": false,
+  "description": "Direct descendant of the Child class",
+  "label": "Grandchild class",
+  "parent": "inheritChild",
+  "attrs": [
+    {
+      "name": "grandchild",
+      "label": "Grandchild attribute",
+      "type": "string",
+      "description": "Attribute from the Grandchild class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "hint": "Attribute from the Grandchild class",
+      "history": false,
+      "multiple": false,
+      "orderNumber": 30,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ]
+}

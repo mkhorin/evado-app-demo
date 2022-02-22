@@ -1,31 +1,31 @@
 {
   "abstract": false,
-  "description": "Behaviors extend the standard functionality of classes and views",
-  "label": "Behaviors",
+  "description": "Parent class for active descendants",
+  "label": "Active parent",
   "attrs": [
     {
-      "name": "string",
-      "label": "String",
+      "name": "parent",
+      "label": "Parent attribute",
       "type": "string",
-      "description": "Value is set via class custom behavior",
+      "description": "Attribute from parent class",
       "commonSearchable": false,
       "createOnRead": false,
       "eagerLoading": false,
       "escape": true,
       "hidden": false,
       "hideEmpty": false,
-      "hint": "Value is set via class custom behavior",
       "history": false,
       "multiple": false,
       "orderNumber": 10,
       "sortable": false,
       "sortableRelation": false,
-      "readOnly": true,
+      "readOnly": false,
       "required": true,
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false
+      "unique": false,
+      "hint": "Attribute from parent class"
     },
     {
       "name": "_class",
@@ -40,7 +40,7 @@
       "hideEmpty": false,
       "history": false,
       "multiple": false,
-      "orderNumber": 20,
+      "orderNumber": 100,
       "sortable": false,
       "sortableRelation": false,
       "readOnly": true,
@@ -51,13 +51,8 @@
       "unique": false
     }
   ],
-  "behaviors": [
-    {
-      "type": "custom",
-      "orderNumber": 10,
-      "config": {
-        "Class": "component/meta/behavior/CustomBehavior"
-      }
-    }
+  "activeDescendants": [
+    "activeParent",
+    "activeChild"
   ]
 }

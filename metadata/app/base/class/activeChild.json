@@ -1,0 +1,32 @@
+{
+  "abstract": false,
+  "description": "Active child of the Active parent class",
+  "label": "Active child",
+  "parent": "activeParent",
+  "attrs": [
+    {
+      "name": "child",
+      "label": "Child attribute",
+      "type": "string",
+      "description": "Attribute from the Active child class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "hint": "Attribute from the Active child class"
+    }
+  ]
+}

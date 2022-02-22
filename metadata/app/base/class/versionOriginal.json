@@ -1,31 +1,31 @@
 {
   "abstract": false,
-  "description": "Behaviors extend the standard functionality of classes and views",
-  "label": "Behaviors",
+  "label": "Original version",
+  "version": "versionLatest",
   "attrs": [
     {
-      "name": "string",
-      "label": "String",
-      "type": "string",
-      "description": "Value is set via class custom behavior",
+      "name": "text",
+      "label": "Text",
+      "type": "text",
+      "description": "In the Original version the Text attribute is required",
       "commonSearchable": false,
       "createOnRead": false,
       "eagerLoading": false,
       "escape": true,
       "hidden": false,
       "hideEmpty": false,
-      "hint": "Value is set via class custom behavior",
       "history": false,
       "multiple": false,
       "orderNumber": 10,
       "sortable": false,
       "sortableRelation": false,
-      "readOnly": true,
+      "readOnly": false,
       "required": true,
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false
+      "unique": false,
+      "hint": "In the Original version the Text attribute is required"
     },
     {
       "name": "_class",
@@ -49,15 +49,6 @@
       "signed": false,
       "trim": true,
       "unique": false
-    }
-  ],
-  "behaviors": [
-    {
-      "type": "custom",
-      "orderNumber": 10,
-      "config": {
-        "Class": "component/meta/behavior/CustomBehavior"
-      }
     }
   ]
 }

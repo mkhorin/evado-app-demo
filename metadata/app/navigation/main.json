@@ -42,6 +42,46 @@
       }
     },
     {
+      "parent": "inheritance",
+      "name": "inheritParent",
+      "label": "Parent class",
+      "description": "<div lang=\"en\">\n<p>Inheritance extends an existing class parameters in a new class.\n<br>Parent class is specified when creating a class and cannot be changed. A class can have only one parent.</p>\n<p>When creating an object from the parent class, a choice of the target class is provided.\n<br>Objects of the descendant classes are displayed in the list of the parent class.\n<br>Using filter, you can search for objects in the list of the parent class by attributes of the descendant classes.\n</p>\n</div>\n<div lang=\"ru\">\n<p>Наследование расширяет параметры существующего класса в новом классе. \n<br>Родительский класс указывается при создании класса и не может быть изменен в дальнейшем. У класса может быть только один родитель.</p>\n<p>При создании объекта из родительского класса предоставляется выбор целевого класса.\n<br>Объекты классов-потомков отображаются в списке родительского класса.\n<br>Используя фильтр, можно искать объекты в списке родительского класса по атрибутам классов-потомков.</p>\n</div>",
+      "orderNumber": 10,
+      "class": "inheritParent",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "parent": "abstract",
+      "name": "realChild",
+      "label": "Real child",
+      "orderNumber": 10,
+      "class": "realChild"
+    },
+    {
+      "parent": "activeDescendants",
+      "name": "inactiveChild",
+      "label": "Inactive child",
+      "description": "<div lang=\"en\">\n<p>Objects of this class cannot be created from the parent class, because it is not listed there as an active descendant.</p>\n</div>\n<div lang=\"ru\">\n<p>Объекты данного класса нельзя создать из родительского класса, потому что он не указан там, как активный потомок.</p>\n</div>",
+      "orderNumber": 10,
+      "class": "inactiveChild",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "parent": "versioning",
+      "name": "originalVersion",
+      "label": "Original version",
+      "description": "<div lang=\"en\">\n<p>Versioning is used if you need to modify a class, but keep functionality of existing objects.\n<br>Specify a new version (another class) to create new objects. Objects of all versions will be displayed in the same list.</p>\n<p>Unlike inheritance, the class version has nothing to do with the original.\n<br>It is only necessary to coordinate a list view of objects of different versions.</p>\n</div>\n<div lang=\"ru\">\n<p>Версионирование используется, если нужно модифицировать класс, но сохранить функциональность уже существующих объектов.\n<br>Для этого укажите новую версию (другой класс), по которой будут создаваться новые объекты.\n<br>Объекты всех версий будут отображаться в одном списке.</p>\n<p>В отличие от наследования, версия класса никак не связана с оригиналом.\n<br>Необходимо лишь согласовать представление списка объектов разных версий.</p>\n</div>",
+      "orderNumber": 10,
+      "class": "versionOriginal",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
       "name": "dates",
       "label": "Dates",
       "description": "<div lang=\"en\">\nDates are stored in database in a general way, but are displayed depending on their view type.\n</div>\n<div lang=\"ru\">\nДаты хранятся в базе данных в общем виде, но отображаются в зависимости от типа их представления.\n</div>",
@@ -59,6 +99,31 @@
       "class": "refCategory"
     },
     {
+      "parent": "inheritParent",
+      "name": "inheritChild",
+      "label": "Child class",
+      "orderNumber": 20,
+      "class": "inheritChild"
+    },
+    {
+      "parent": "activeDescendants",
+      "name": "activeChild",
+      "label": "Active child",
+      "description": "<div lang=\"en\">\n<p>Objects of this class can be created from the parent class, because it is listed there as an active descendant.</p>\n</div>\n<div lang=\"ru\">\n<p>Объекты данного класса можно создать из родительского класса, потому что он указан там, как активный потомок.</p>\n</div>",
+      "orderNumber": 20,
+      "class": "activeChild",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "parent": "versioning",
+      "name": "latestVersion",
+      "label": "Latest version",
+      "orderNumber": 20,
+      "class": "versionLatest"
+    },
+    {
       "name": "enumerations",
       "label": "Enumerations",
       "description": "<div lang=\"en\">\nEnumerations provide a choice of one of the defined values. Each value can have a label and a hint.\n</div>\n<div lang=\"ru\">\nПеречисления предоставляют выбор одного из определенных значений. Каждое значение может иметь ярлык и подсказку.\n</div>",
@@ -74,6 +139,13 @@
       "label": "Comments",
       "orderNumber": 30,
       "class": "refComment"
+    },
+    {
+      "parent": "inheritChild",
+      "name": "grandchild",
+      "label": "Grandchild class",
+      "orderNumber": 30,
+      "class": "inheritGrandchild"
     },
     {
       "name": "calculated",
@@ -157,6 +229,40 @@
       "description": "<div lang=\"en\">\n<p>Each object of a class can be in a certain state. The state can have its own view for objects.\n<br>The current object state is stored in the service attribute <code>_state</code>.</p>\n<p>The object states are changed using transitions.\n<br>The transitions can be limited by various conditions, including app security system.</p>\n</div>\n<div lang=\"ru\">\n<p>Каждый объект класса может находиться в определенном состоянии. Состояние может иметь собственное представление для объектов.\n<br>Текущее состояние объекта хранится в служебном атрибуте <code>_state</code>.</p>\n<p>Изменение состояния осуществляется с помощью переходов.\n<br>Переходы могут быть ограничены различными условиями, в том числе и системой безопасности приложения.</p>\n</div>",
       "orderNumber": 120,
       "class": "workflow",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "inheritance",
+      "label": "Inheritance",
+      "orderNumber": 130,
+      "type": "container"
+    },
+    {
+      "parent": "inheritance",
+      "name": "abstract",
+      "label": "Abstract class",
+      "description": "<div lang=\"en\">\n<p>An abstract class can be used as a parent in the class hierarchy, but you cannot create objects of this class.</p>\n</div>\n<div lang=\"ru\">\n<p>Абстрактный класс можно использовать в качестве родительского в иерархии классов, но нельзя создавать объекты этого класса.</p>\n</div>",
+      "orderNumber": 140,
+      "class": "abstractParent",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "versioning",
+      "label": "Versioning",
+      "orderNumber": 140,
+      "type": "container"
+    },
+    {
+      "parent": "inheritance",
+      "name": "activeDescendants",
+      "label": "Active descendants",
+      "description": "<div lang=\"en\">\n<p>Parent class with selected active descendants.\n<br>Active descendants define classes whose objects can be created from the parent class.</p>\n</div>\n<div lang=\"ru\">\n<p>Родительский класс с выбранными активными потомками.\n<br>Активные потомки определяют классы, объекты которых можно создавать из родительского класса.</p>\n</div>",
+      "orderNumber": 150,
+      "class": "activeParent",
       "options": {
         "showDescription": true
       }

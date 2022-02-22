@@ -115,8 +115,12 @@
       "escape": true,
       "hidden": false,
       "hideEmpty": false,
+      "hint": "Custom date format from attribute options",
       "history": false,
       "multiple": false,
+      "options": {
+        "format": "LLLL"
+      },
       "orderNumber": 50,
       "sortable": false,
       "sortableRelation": false,
@@ -125,11 +129,7 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false,
-      "hint": "Custom date format from attribute options",
-      "options": {
-        "format": "LLLL"
-      }
+      "unique": false
     },
     {
       "name": "_class",

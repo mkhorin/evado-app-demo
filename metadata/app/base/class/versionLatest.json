@@ -1,27 +1,48 @@
 {
   "abstract": false,
-  "description": "Behaviors extend the standard functionality of classes and views",
-  "label": "Behaviors",
+  "label": "Latest version",
   "attrs": [
     {
-      "name": "string",
-      "label": "String",
+      "name": "text",
+      "label": "Text",
       "type": "string",
-      "description": "Value is set via class custom behavior",
+      "description": "In the Latest version the Text attribute is optional and string",
       "commonSearchable": false,
       "createOnRead": false,
       "eagerLoading": false,
       "escape": true,
       "hidden": false,
       "hideEmpty": false,
-      "hint": "Value is set via class custom behavior",
+      "hint": "In the Latest version the Text attribute is optional and string",
       "history": false,
       "multiple": false,
       "orderNumber": 10,
       "sortable": false,
       "sortableRelation": false,
-      "readOnly": true,
-      "required": true,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "boolean",
+      "label": "Boolean",
+      "type": "boolean",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
       "selectSearchable": false,
       "signed": false,
       "trim": true,
@@ -40,7 +61,7 @@
       "hideEmpty": false,
       "history": false,
       "multiple": false,
-      "orderNumber": 20,
+      "orderNumber": 30,
       "sortable": false,
       "sortableRelation": false,
       "readOnly": true,
@@ -49,15 +70,6 @@
       "signed": false,
       "trim": true,
       "unique": false
-    }
-  ],
-  "behaviors": [
-    {
-      "type": "custom",
-      "orderNumber": 10,
-      "config": {
-        "Class": "component/meta/behavior/CustomBehavior"
-      }
     }
   ]
 }

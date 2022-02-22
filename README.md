@@ -1,6 +1,6 @@
 # Evado Demo
 
-Presentation of the main features of the 
+Presentation of features of 
 [Evado Declarative Framework](https://github.com/mkhorin/evado)
 for rapid web app development.
 

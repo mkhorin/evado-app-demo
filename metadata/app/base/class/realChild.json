@@ -1,0 +1,32 @@
+{
+  "abstract": false,
+  "description": "A real child from abstract parent",
+  "label": "Real child",
+  "parent": "abstractParent",
+  "attrs": [
+    {
+      "name": "child",
+      "label": "Child attribute",
+      "type": "string",
+      "description": "Attribute from the Real child class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "hint": "Attribute from the Real child class"
+    }
+  ]
+}

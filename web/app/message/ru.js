@@ -37,11 +37,23 @@ Jam.I18n.custom = {
  */
 Jam.I18n.meta = {
 
+    'Abstract class': 'Абстрактный класс',
+    'Active child': 'Активный наследник',
+    'Active descendants': 'Активные потомки',
     'Any': 'Любой',
     'Archive': 'Архивировать',
     'Archived state': 'Архивированное состояние',
     'Article': 'Статья',
     'Articles': 'Статьи',
+    'Attribute from parent class': 'Атрибут из родительского класса',
+    'Attribute from the Abstract parent class': 'Атрибут из абстрактного родительского класса',
+    'Attribute from the Active child class': 'Атрибут из активного дочернего класса',
+    'Attribute from the Child class': 'Атрибут из дочернего класса',
+    'Attribute from the Grandchild class': 'Атрибут из внучатого класса',
+    'Attribute from the Inactive child class': 'Атрибут из неактивного дочернего класса',
+    'Attribute from the Parent class': 'Атрибут из родительского класса',
+    'Attribute from the Parent class. Default value is overridden in the Child class': 'Атрибут из родительского класса. Значение по умолчанию переопределенно в дочернем классе',
+    'Attribute from the Real child class': 'Атрибут из реального дочернего класса',
 
     'Back references from linked objects': 'Обратная ссылка из связанного объекта',
     'Bad': 'Плохо',
@@ -58,6 +70,8 @@ Jam.I18n.meta = {
     'Calculation source': 'Источник вычислений',
     'Categories': 'Категории',
     'Category': 'Категория',
+    'Child attribute': 'Дочерний атрибут',
+    'Child class': 'Дочерний класс',
     'Check an integer and a range of 10 - 100': 'Проверить целое число в диапазоне 10 - 100',
     'Check an unique and required value': 'Проверить уникальность и обязательность значения',
     'Check an unique email': 'Проверить уникальность email',
@@ -103,15 +117,22 @@ Jam.I18n.meta = {
 
     'Go to editing': 'Перейти к редактированию',
     'Good': 'Хорошо',
+    'Grandchild attribute': 'Внучатый атрибут',
+    'Grandchild class': 'Внучатый класс',
     'Group is loaded on expanding': 'Группа загружаемая при раскрытии',
     'Grouping attributes': 'Группировка атрибутов',
 
     'Hash': 'Хэш',
 
+    'In the Latest version the Text attribute is optional and string': 'В последней версии класса текстовый атрибут необязателен и строковый',
+    'In the Original version the Text attribute is required': 'В исходной версии класса текстовый атрибут обязателен',
+    'Inactive child': 'Неактивный наследник',
+    'Inheritance': 'Наследование',
     'Integer': 'Целочисленное',
     'Integer value for calculation': 'Целое значение для вычислений',
     'Integers with default value': 'Целые числа со значением по умолчанию',
 
+    'Latest version': 'Последняя версия',
     'Local date': 'Локальная дата',
     'Local date with time': 'Докальная дата и время',
 
@@ -126,7 +147,10 @@ Jam.I18n.meta = {
     'Object identifier': 'Идентификатор объекта',
     'Only this attribute is in the creation view': 'Только этот атрибут в представлении создания',
     'Order number': 'Порядковый номер',
+    'Original version': 'Исходная версия',
 
+    'Parent attribute': 'Родительский атрибут',
+    'Parent class': 'Родительский класс',
     'Published': 'Опубликовано',
 
     'Radio list view': 'Представление список radio-кнопок',
@@ -134,6 +158,7 @@ Jam.I18n.meta = {
     'Rating': 'Оценка',
     'Rating state': 'Состояние оценки',
     'Rating view': 'Представление оценки',
+    'Real child': 'Реальный наследник',
     'Red': 'Красный',
     'Red-black': 'Красно-чёрный',
     'Red-yellow': 'Красно-желтый',
@@ -175,6 +200,7 @@ Jam.I18n.meta = {
 
     'Validation': 'Валидация',
     'Value is set via class custom behavior': 'Значение устанавливается через пользовательское поведение класса',
+    'Versioning': 'Версионирование',
     'Views': 'Представления',
 
     'Workflow': 'Бизнес-процесс'
