@@ -84,7 +84,7 @@
             },
             {
               "value": "blue",
-              "text": "Blue (with hint)",
+              "text": "Blue",
               "hint": "Blue hint",
               "orderNumber": 20
             },

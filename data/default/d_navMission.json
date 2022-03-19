@@ -1,0 +1,104 @@
+[
+  {
+    "_id": {
+      "$oid": "62313a071b904a8d0e5ee768"
+    },
+    "_class": "navMission",
+    "_creator": null,
+    "name": "Mission A1",
+    "startDate": {
+      "$date": "2035-06-01T00:00:00.000Z"
+    },
+    "target": {
+      "$oid": "623139651b904a8d0e5ee764"
+    },
+    "_createdAt": {
+      "$date": "2022-03-16T01:14:47.981Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62313a1b1b904a8d0e5ee769"
+    },
+    "_class": "navMission",
+    "_creator": null,
+    "name": "Mission A2",
+    "startDate": {
+      "$date": "2026-07-01T00:00:00.000Z"
+    },
+    "target": {
+      "$oid": "623139651b904a8d0e5ee764"
+    },
+    "_createdAt": {
+      "$date": "2022-03-16T01:15:07.723Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62313a2f1b904a8d0e5ee76a"
+    },
+    "_class": "navMission",
+    "_creator": null,
+    "name": "Mission B1",
+    "startDate": {
+      "$date": "2027-03-05T00:00:00.000Z"
+    },
+    "target": {
+      "$oid": "623139871b904a8d0e5ee765"
+    },
+    "_createdAt": {
+      "$date": "2022-03-16T01:15:27.238Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62313a441b904a8d0e5ee76b"
+    },
+    "_class": "navMission",
+    "_creator": null,
+    "name": "Mission B2",
+    "startDate": {
+      "$date": "2028-10-01T00:00:00.000Z"
+    },
+    "target": {
+      "$oid": "623139871b904a8d0e5ee765"
+    },
+    "_createdAt": {
+      "$date": "2022-03-16T01:15:48.828Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62313a611b904a8d0e5ee76c"
+    },
+    "_class": "navMission",
+    "_creator": null,
+    "name": "Mission C1",
+    "startDate": {
+      "$date": "2026-10-01T00:00:00.000Z"
+    },
+    "target": {
+      "$oid": "6231399c1b904a8d0e5ee766"
+    },
+    "_createdAt": {
+      "$date": "2022-03-16T01:16:17.105Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62313a761b904a8d0e5ee76d"
+    },
+    "_class": "navMission",
+    "_creator": null,
+    "name": "Mission C2",
+    "startDate": {
+      "$date": "2028-05-01T00:00:00.000Z"
+    },
+    "target": {
+      "$oid": "6231399c1b904a8d0e5ee766"
+    },
+    "_createdAt": {
+      "$date": "2022-03-16T01:16:38.963Z"
+    }
+  }
+]

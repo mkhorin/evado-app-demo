@@ -252,6 +252,7 @@
     },
     {
       "active": true,
+      "hint": "Group hint",
       "name": "simple",
       "label": "Simple group",
       "loadable": false,
@@ -304,7 +305,8 @@
       "orderNumber": 1090,
       "parent": "tabs",
       "readOnly": false,
-      "required": false
+      "required": false,
+      "hint": "Tab hint"
     },
     {
       "name": "tab3",

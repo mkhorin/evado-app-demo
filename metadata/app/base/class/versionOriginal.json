@@ -14,6 +14,7 @@
       "escape": true,
       "hidden": false,
       "hideEmpty": false,
+      "hint": "In the Original version the Text attribute is required",
       "history": false,
       "multiple": false,
       "orderNumber": 10,
@@ -24,8 +25,7 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false,
-      "hint": "In the Original version the Text attribute is required"
+      "unique": false
     },
     {
       "name": "_class",

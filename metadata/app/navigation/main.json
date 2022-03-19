@@ -82,6 +82,26 @@
       }
     },
     {
+      "parent": "navDynamicNodes",
+      "name": "navDynamicNode",
+      "label": "Dynamic node",
+      "description": "This node contains provider settings, which generates dynamic nodes in place of the current one.\nThe mission list is filtered by dynamic node object ID from the request parameter.",
+      "orderNumber": 10,
+      "class": "navMission",
+      "options": {
+        "provider": {
+          "class": "navPlanet",
+          "descriptionAttr": "description"
+        },
+        "filter": [
+          "id",
+          "target",
+          "$param.id"
+        ],
+        "showDescription": true
+      }
+    },
+    {
       "name": "dates",
       "label": "Dates",
       "description": "<div lang=\"en\">\nDates are stored in database in a general way, but are displayed depending on their view type.\n</div>\n<div lang=\"ru\">\nДаты хранятся в базе данных в общем виде, но отображаются в зависимости от типа их представления.\n</div>",
@@ -263,6 +283,22 @@
       "description": "<div lang=\"en\">\n<p>Parent class with selected active descendants.\n<br>Active descendants define classes whose objects can be created from the parent class.</p>\n</div>\n<div lang=\"ru\">\n<p>Родительский класс с выбранными активными потомками.\n<br>Активные потомки определяют классы, объекты которых можно создавать из родительского класса.</p>\n</div>",
       "orderNumber": 150,
       "class": "activeParent",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "navHeader",
+      "label": "Navigation",
+      "orderNumber": 150,
+      "type": "header"
+    },
+    {
+      "name": "navDynamicNodes",
+      "label": "Dynamic nodes",
+      "description": "<div lang=\"en\">\n<p>To generate menu items from class objects, specify setting <code>{\"provider\": {\"class\": \"className\", \"nameAttr\": \"name\"}}</code>.\n<br>To filter a list based on a dynamic item, specify setting <code>{\"filter\": [\"id\", \"attrName\", \"$param.id\"]}</code></p>\n</div>\n<div lang=\"ru\">\n<p>Для генерации пунктов меню из объектов класса укажите настройку <code>{\"provider\": {\"class\": \"className\", \"nameAttr\": \"name\"}}</code>.\n<br>Для фильтрации списка на основе динамического пункта укажите настройку <code>{\"filter\": [\"id\", \"attrName\", \"$param.id\"]}</code></p>\n</div>",
+      "orderNumber": 160,
+      "class": "navMission",
       "options": {
         "showDescription": true
       }

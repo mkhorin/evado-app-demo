@@ -95,7 +95,9 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false
+      "unique": false,
+      "extHint": "Extended attribute hint",
+      "hint": "Bottom attribute hint"
     },
     {
       "name": "text",
@@ -119,7 +121,8 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false
+      "unique": false,
+      "extHint": "Extended hint\nSecond attribute hint line\nThird hint line"
     },
     {
       "name": "json",

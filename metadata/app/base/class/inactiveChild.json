@@ -15,6 +15,7 @@
       "escape": true,
       "hidden": false,
       "hideEmpty": false,
+      "hint": "Attribute from the Inactive child class",
       "history": false,
       "multiple": false,
       "orderNumber": 20,
@@ -25,8 +26,7 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false,
-      "hint": "Attribute from the Inactive child class"
+      "unique": false
     }
   ]
 }
