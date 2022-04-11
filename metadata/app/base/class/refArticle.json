@@ -72,6 +72,7 @@
       ],
       "commonSearchable": false,
       "createOnRead": false,
+      "extHint": "Multiple references to linked objects",
       "eagerLoading": false,
       "escape": true,
       "hidden": false,
@@ -88,8 +89,7 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false,
-      "extHint": "Multiple references to linked objects"
+      "unique": false
     },
     {
       "name": "comments",
@@ -104,6 +104,7 @@
       ],
       "commonSearchable": false,
       "createOnRead": false,
+      "extHint": "Back references from linked objects",
       "eagerLoading": false,
       "escape": true,
       "hidden": false,
@@ -120,8 +121,7 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false,
-      "extHint": "Back references from linked objects"
+      "unique": false
     },
     {
       "name": "_class",

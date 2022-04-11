@@ -172,6 +172,7 @@ Jam.I18n.meta = {
     'Red-yellow': 'Красно-желтый',
     'Reference types': 'Ссылочные типы',
     'Required string value': 'Обязательное строковое значение',
+    'Required string value with a history of changes': 'Обязательное строковое значение с историей изменений',
 
     'Second': 'Второй',
     'Select one value from the list': 'Выберите одно значение из списка',

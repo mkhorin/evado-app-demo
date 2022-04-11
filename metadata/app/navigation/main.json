@@ -102,6 +102,13 @@
       }
     },
     {
+      "parent": "files",
+      "name": "s3Files",
+      "label": "S3 files",
+      "orderNumber": 10,
+      "class": "s3File"
+    },
+    {
       "name": "dates",
       "label": "Dates",
       "description": "<div lang=\"en\">\nDates are stored in database in a general way, but are displayed depending on their view type.\n</div>\n<div lang=\"ru\">\nДаты хранятся в базе данных в общем виде, но отображаются в зависимости от типа их представления.\n</div>",

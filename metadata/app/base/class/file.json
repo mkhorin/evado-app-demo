@@ -1,6 +1,6 @@
 {
   "abstract": false,
-  "description": "A special behavior implements interaction with file storage",
+  "description": "Special behavior implements interaction with file storage",
   "label": "File",
   "attrs": [
     {

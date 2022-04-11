@@ -299,14 +299,14 @@
       "required": false
     },
     {
+      "hint": "Tab hint",
       "name": "tab2",
       "label": "Tab 2",
       "loadable": false,
       "orderNumber": 1090,
       "parent": "tabs",
       "readOnly": false,
-      "required": false,
-      "hint": "Tab hint"
+      "required": false
     },
     {
       "name": "tab3",

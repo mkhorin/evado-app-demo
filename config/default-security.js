@@ -57,6 +57,16 @@ module.exports = {
         'user': {
             label: 'User',
             description: 'Default role for authenticated users',
+            children: [
+                'moduleOffice',
+                'moduleStudio',
+                'moduleApiBaseUpload'
+            ]
+        },
+        'autoAssignedRole': {
+            label: 'Auto assigned role',
+            description: 'Dynamically assigned role by assignment rule',
+            assignmentRules: 'assignmentRule'
         }
     },
 
@@ -76,7 +86,15 @@ module.exports = {
         'Adam': 'administrator'
     },
 
-    // rules to auto-bind users to roles
+    // rules to auto-bind roles to users
     assignmentRules: {
+        'assignmentRule': {
+            active: true,
+            label: 'Assignment rule',
+            description: 'Rule for dynamically assigning a role to a user',
+            config: {
+                Class: 'evado/component/meta/rbac/assignment/BaseAssignmentRule'
+            }
+        }
     }
 };

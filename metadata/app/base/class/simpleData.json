@@ -14,8 +14,8 @@
       "escape": true,
       "hidden": false,
       "hideEmpty": false,
-      "hint": "Required string value",
-      "history": false,
+      "hint": "Required string value with a history of changes",
+      "history": true,
       "multiple": false,
       "orderNumber": 10,
       "sortable": false,
@@ -81,10 +81,12 @@
       "description": "A boolean type can only be true or false",
       "commonSearchable": false,
       "createOnRead": false,
+      "extHint": "Extended attribute hint",
       "eagerLoading": false,
       "escape": true,
       "hidden": false,
       "hideEmpty": false,
+      "hint": "Bottom attribute hint",
       "history": false,
       "multiple": false,
       "orderNumber": 60,
@@ -95,9 +97,7 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false,
-      "extHint": "Extended attribute hint",
-      "hint": "Bottom attribute hint"
+      "unique": false
     },
     {
       "name": "text",
@@ -106,6 +106,7 @@
       "description": "Multiline text value",
       "commonSearchable": false,
       "createOnRead": false,
+      "extHint": "Extended hint\nSecond attribute hint line\nThird hint line",
       "eagerLoading": false,
       "escape": true,
       "hidden": false,
@@ -121,8 +122,7 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false,
-      "extHint": "Extended hint\nSecond attribute hint line\nThird hint line"
+      "unique": false
     },
     {
       "name": "json",

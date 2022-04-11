@@ -8,7 +8,7 @@
       "$oid": "6201f95bf0dce7500048cdca"
     },
     "integer": 25,
-    "string": "Lorem ipsum",
+    "string": "Lorem ipsum dolor",
     "float": 42.75,
     "boolean": true,
     "text": "Semper gravida dictumst ut cursus. \nUrna Nulla dui mus sodales nascetur augue.\nFelis egestas consectetuer nulla.",
@@ -17,7 +17,7 @@
     },
     "_editor": null,
     "_updatedAt": {
-      "$date": "2022-02-22T09:00:07.856Z"
+      "$date": "2022-04-07T00:52:29.192Z"
     },
     "json": {
       "key": "value"

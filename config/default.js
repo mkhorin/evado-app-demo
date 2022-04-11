@@ -26,7 +26,8 @@ module.exports = {
             Class: require('evado/component/file/S3Storage'),
             accessKey: 'minioadmin',
             secretKey: 'minioadmin',
-            bucket: 'test'
+            bucket: 'demo',
+            useSSL: false
         }
     },
     metaModels: {
@@ -74,6 +75,8 @@ module.exports = {
     listeners: require('./default-listeners'),
     sideMenu: require('./default-sideMenu'),
     params: {
+        'dataHistoryTruncationThreshold': 10,
+        'dataHistoryTruncationOffset': 5,
         'enablePasswordChange': false,
         'enablePasswordReset': false,
         'enableSignUp': false,
