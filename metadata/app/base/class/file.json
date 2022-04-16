@@ -73,7 +73,10 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false
+      "unique": false,
+      "options": {
+        "format": "bytes"
+      }
     },
     {
       "name": "_type",

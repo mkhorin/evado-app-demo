@@ -1,0 +1,40 @@
+{
+  "abstract": false,
+  "description": "Image file",
+  "label": "Image",
+  "attrs": [
+    {
+      "name": "file",
+      "label": "File",
+      "type": "file",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 10,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ],
+  "behaviors": [
+    {
+      "type": "file",
+      "orderNumber": 10,
+      "description": "Implement interaction with file storage",
+      "imageOnly": true,
+      "maxSize": 1000000,
+      "accept": "image/jpeg",
+      "hashing": false
+    }
+  ]
+}

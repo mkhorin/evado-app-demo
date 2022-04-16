@@ -38,6 +38,7 @@ Jam.I18n.custom = {
 Jam.I18n.meta = {
 
     'Abstract class': 'Абстрактный класс',
+    'Action binders': 'Настройки действий',
     'Active child': 'Активный наследник',
     'Active descendants': 'Активные потомки',
     'Any': 'Любой',
@@ -118,9 +119,13 @@ Jam.I18n.meta = {
     'Filename is used when downloading': 'Имя файла используется при скачивании',
     'Files': 'Файлы',
     'First': 'Первый',
+    'First name': 'Имя',
     'First plus second': 'Первый плюс второй',
     'Float': 'Вещественное',
+    'Full name': 'Полное имя',
 
+    'Check to trigger actions': 'Включите, чтобы вызвать действия',
+    'Check to set the test value': 'Включите, чтобы установить тестовое значение',
     'Go to editing': 'Перейти к редактированию',
     'Good': 'Хорошо',
     'Grandchild attribute': 'Внучатый атрибут',
@@ -135,10 +140,12 @@ Jam.I18n.meta = {
     'In the Original version the Text attribute is required': 'В исходной версии класса текстовый атрибут обязателен',
     'Inactive child': 'Неактивный наследник',
     'Inheritance': 'Наследование',
+    'Input some value to show the last name attribute': 'Введите значение, чтобы показать атрибут Фамилия',
     'Integer': 'Целочисленное',
     'Integer value for calculation': 'Целое значение для вычислений',
     'Integers with default value': 'Целые числа со значением по умолчанию',
 
+    'Last name': 'Фамилия',
     'Latest version': 'Последняя версия',
     'Local date': 'Локальная дата',
     'Local date with time': 'Докальная дата и время',
@@ -174,6 +181,7 @@ Jam.I18n.meta = {
     'Required string value': 'Обязательное строковое значение',
     'Required string value with a history of changes': 'Обязательное строковое значение с историей изменений',
 
+    'S3 files': 'Файлы S3',
     'Second': 'Второй',
     'Select one value from the list': 'Выберите одно значение из списка',
     'Select box': 'Список выбора',
@@ -197,6 +205,7 @@ Jam.I18n.meta = {
     'Tab is loaded on activation': 'Вкладка загружаемая при активации',
     'Target planet': 'Целевая планета',
     'Text': 'Текст',
+    'Tracked': 'Отслеживаемый',
     'The current list of values depends on the value of the Color attribute': 'Текущий список значений зависит от значения атрибута "Цвет"',
     'The current state of this object': 'Текущее состояние объекта',
     'The source of values are objects of the Enumeration source class (shown only published)': 'Источником значений являются объекты класса Enumeration source (показаны только опубликованные)',
@@ -211,6 +220,8 @@ Jam.I18n.meta = {
 
     'Validation': 'Валидация',
     'Value is set via class custom behavior': 'Значение устанавливается через пользовательское поведение класса',
+    'Value receiver': 'Получатель значения',
+    'Value toggle': 'Включатель значения',
     'Versioning': 'Версионирование',
     'Views': 'Представления',
 

@@ -1,0 +1,305 @@
+{
+  "abstract": false,
+  "description": "Attribute action bindings define client-side actions in the form",
+  "label": "Action binders",
+  "attrs": [
+    {
+      "name": "fullName",
+      "label": "Full name",
+      "type": "string",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 10,
+      "actionBinder": {
+        "require": {
+          "tracked": false
+        },
+        "enable": {
+          "tracked": false
+        },
+        "description": "Attribute is required if the tracked attribute is false\nAttribute is enabled if the tracked attribute is false"
+      },
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "tracked",
+      "label": "Tracked",
+      "type": "boolean",
+      "description": "Check to trigger actions",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "hint": "Check to trigger actions"
+    },
+    {
+      "name": "firstName",
+      "label": "First name",
+      "type": "string",
+      "description": "Input some value to show the last name attribute",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 30,
+      "actionBinder": {
+        "show": {
+          "tracked": true
+        },
+        "require": {
+          "tracked": true
+        },
+        "value": [
+          "",
+          {
+            "tracked": false
+          }
+        ],
+        "description": "Attribute is visible if the tracked attribute is true\nAttribute is required if the tracked attribute is true\nSet empty value if the tracked attribute is true"
+      },
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "hint": "Input some value to show the last name attribute"
+    },
+    {
+      "name": "lastName",
+      "label": "Last name",
+      "type": "string",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 40,
+      "actionBinder": {
+        "show": [
+          {
+            "tracked": true
+          },
+          [
+            "notEmpty",
+            "firstName"
+          ]
+        ],
+        "description": "Attribute is visible if the tracked attribute is true and the first name attribute is not empty"
+      },
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "valueToggle",
+      "label": "Value toggle",
+      "type": "boolean",
+      "description": "Check to set the test value",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 50,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "hint": "Check to set the test value"
+    },
+    {
+      "name": "valueReceiver",
+      "label": "Value receiver",
+      "type": "string",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 60,
+      "actionBinder": {
+        "value": [
+          "Test value",
+          [
+            {
+              "valueToggle": true
+            },
+            [
+              "startTrigger",
+              "valueToggle"
+            ]
+          ]
+        ],
+        "description": "Set the test value if the value toggle checkbox is selected and the checkbox is a change trigger"
+      },
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "groupTracked",
+      "label": "Group tracked",
+      "type": "boolean",
+      "description": "Check to trigger group actions",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 70,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "hint": "Check to trigger group actions"
+    },
+    {
+      "name": "age",
+      "label": "Age",
+      "type": "integer",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "group": "info",
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 80,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "address",
+      "label": "Address",
+      "type": "string",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "group": "info",
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 90,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "_class",
+      "label": "Metadata class",
+      "type": "string",
+      "viewType": "class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 9000,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": true,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ],
+  "groups": [
+    {
+      "active": true,
+      "name": "info",
+      "label": "Information",
+      "loadable": false,
+      "orderNumber": 1000,
+      "readOnly": false,
+      "required": false,
+      "actionBinder": {
+        "require": {
+          "groupTracked": true
+        }
+      }
+    }
+  ]
+}
