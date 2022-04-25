@@ -120,7 +120,7 @@
   "states": [
     {
       "name": "draft",
-      "label": "Draft state",
+      "label": "Draft",
       "defaults": true,
       "description": "Default state for new objects",
       "view": "draft",
@@ -128,7 +128,7 @@
     },
     {
       "name": "rating",
-      "label": "Rating state",
+      "label": "Rating",
       "defaults": false,
       "description": "In this state, an object text can be rated",
       "view": "rating",
@@ -136,7 +136,7 @@
     },
     {
       "name": "archived",
-      "label": "Archived state",
+      "label": "Archived",
       "defaults": false,
       "description": "In this state, an object is closed for changes",
       "readOnly": true
@@ -152,7 +152,8 @@
         "draft"
       ],
       "finalState": "rating",
-      "orderNumber": 10
+      "orderNumber": 10,
+      "hint": "Go to rate"
     },
     {
       "name": "archive",
