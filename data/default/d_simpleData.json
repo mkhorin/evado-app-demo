@@ -11,16 +11,18 @@
     "string": "Lorem ipsum dolor",
     "float": 42.75,
     "boolean": true,
-    "text": "Semper gravida dictumst ut cursus. \nUrna Nulla dui mus sodales nascetur augue.\nFelis egestas consectetuer nulla.",
+    "text": "Semper gravida dictumst ut cursus. \nUrna Nulla dui mus sodales nascetur augue.",
     "_createdAt": {
       "$date": "2022-02-08T06:01:25.732Z"
     },
     "_editor": null,
     "_updatedAt": {
-      "$date": "2022-04-07T00:52:29.192Z"
+      "$date": "2022-04-26T01:28:46.177Z"
     },
     "json": {
       "key": "value"
-    }
+    },
+    "readingMask": 123456,
+    "inputMask": 5551112233
   }
 ]

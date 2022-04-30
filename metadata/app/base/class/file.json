@@ -65,6 +65,9 @@
       "hint": "Service data of file size",
       "history": false,
       "multiple": false,
+      "options": {
+        "format": "bytes"
+      },
       "orderNumber": 30,
       "sortable": false,
       "sortableRelation": false,
@@ -73,10 +76,7 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false,
-      "options": {
-        "format": "bytes"
-      }
+      "unique": false
     },
     {
       "name": "_type",

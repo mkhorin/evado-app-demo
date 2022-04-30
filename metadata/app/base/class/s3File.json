@@ -1,7 +1,7 @@
 {
   "abstract": false,
-  "label": "S3 file",
   "description": "Special behavior implements interaction with S3 storage",
+  "label": "S3 file",
   "attrs": [
     {
       "name": "file",
@@ -58,8 +58,12 @@
       "escape": true,
       "hidden": false,
       "hideEmpty": false,
+      "hint": "Service data of file size",
       "history": false,
       "multiple": false,
+      "options": {
+        "format": "bytes"
+      },
       "orderNumber": 30,
       "sortable": false,
       "sortableRelation": false,
@@ -68,11 +72,7 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false,
-      "hint": "Service data of file size",
-      "options": {
-        "format": "bytes"
-      }
+      "unique": false
     },
     {
       "name": "_type",
@@ -85,6 +85,7 @@
       "escape": true,
       "hidden": false,
       "hideEmpty": false,
+      "hint": "Service data of file type",
       "history": false,
       "multiple": false,
       "orderNumber": 40,
@@ -95,8 +96,7 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false,
-      "hint": "Service data of file type"
+      "unique": false
     },
     {
       "name": "_class",
