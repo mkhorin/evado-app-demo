@@ -155,6 +155,7 @@ Jam.I18n.meta = {
 
     'Last name': 'Фамилия',
     'Latest version': 'Последняя версия',
+    'Listeners': 'Слушатели',
     'Local date': 'Локальная дата',
     'Local date with time': 'Докальная дата и время',
 

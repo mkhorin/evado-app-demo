@@ -147,13 +147,13 @@
       "name": "rate",
       "label": "Rate",
       "description": "Go to rate",
+      "hint": "Go to rate",
       "nullStartState": false,
       "startStates": [
         "draft"
       ],
       "finalState": "rating",
-      "orderNumber": 10,
-      "hint": "Go to rate"
+      "orderNumber": 10
     },
     {
       "name": "archive",
@@ -169,7 +169,10 @@
         "$notEmpty",
         ".rating"
       ],
-      "orderNumber": 20
+      "orderNumber": 20,
+      "options": {
+        "jam": "Archive"
+      }
     },
     {
       "name": "edit",
