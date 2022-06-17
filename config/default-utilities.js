@@ -4,5 +4,17 @@ const parent = require('evado/config/default-utilities');
 
 module.exports = {
 
-    ...parent
+    ...parent,
+
+    'simple': {
+        Class: 'component/meta/utility/SimpleUtility',
+        enabled: true,
+        name: 'Simple utility',
+        hint: 'Set simple string value',
+        confirmation: ' Execute simple utility now?',
+        css: 'btn-outline-success',
+        frontClass: 'Simple',
+        targetClass: 'simpleData',
+        actions: ['update']
+    }
 };
