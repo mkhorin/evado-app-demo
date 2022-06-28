@@ -1,0 +1,117 @@
+{
+  "abstract": false,
+  "label": "Listened",
+  "attrs": [
+    {
+      "name": "_state",
+      "label": "State",
+      "type": "string",
+      "viewType": "state",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 10,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": true,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "string",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "_class",
+      "label": "Metadata class",
+      "type": "string",
+      "viewType": "class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 30,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": true,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ],
+  "states": [
+    {
+      "name": "initial",
+      "label": "Initial",
+      "defaults": true,
+      "readOnly": false
+    },
+    {
+      "name": "working",
+      "label": "Working",
+      "defaults": false,
+      "readOnly": false
+    },
+    {
+      "name": "relaxing",
+      "label": "Relaxing",
+      "defaults": false,
+      "readOnly": false
+    }
+  ],
+  "transitions": [
+    {
+      "name": "work",
+      "label": "Work",
+      "nullStartState": false,
+      "startStates": [
+        "initial",
+        "relaxing"
+      ],
+      "finalState": "working",
+      "orderNumber": 10
+    },
+    {
+      "name": "relax",
+      "label": "Relax",
+      "nullStartState": false,
+      "startStates": [
+        "working"
+      ],
+      "finalState": "relaxing",
+      "orderNumber": 20
+    }
+  ]
+}

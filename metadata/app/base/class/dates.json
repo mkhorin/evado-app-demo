@@ -119,7 +119,7 @@
       "history": false,
       "multiple": false,
       "options": {
-        "format": "LLLL"
+        "dateFormat": "LLLL"
       },
       "orderNumber": 50,
       "sortable": false,

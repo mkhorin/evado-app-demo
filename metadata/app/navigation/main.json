@@ -309,16 +309,26 @@
       }
     },
     {
+      "name": "listeners",
+      "label": "Listeners",
+      "description": "<div lang=\"en\">\n<p>Tracking the creation of objects of this class and state transitions, <a href=\"/admin/listener\" target=\"_blank\">the listener</a> performs a specified action - logging on the server.</p>\n</div>\n<div lang=\"ru\">\n<p>Отслеживая создание объектов данного класса и переходы состояний, <a href=\"/admin/listener\" target=\"_blank\">слушатель</a> производит заданное действие - логирование на сервере.</p>\n</div>",
+      "orderNumber": 160,
+      "class": "listened",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
       "name": "navHeader",
       "label": "Navigation",
-      "orderNumber": 160,
+      "orderNumber": 170,
       "type": "header"
     },
     {
       "name": "navDynamicNodes",
       "label": "Dynamic nodes",
       "description": "<div lang=\"en\">\n<p>To generate menu items from class objects, specify setting <code>{\"provider\": {\"class\": \"className\", \"nameAttr\": \"name\"}}</code>.\n<br>To filter a list based on a dynamic item, specify setting <code>{\"filter\": [\"id\", \"attrName\", \"$param.id\"]}</code></p>\n</div>\n<div lang=\"ru\">\n<p>Для генерации пунктов меню из объектов класса укажите настройку <code>{\"provider\": {\"class\": \"className\", \"nameAttr\": \"name\"}}</code>.\n<br>Для фильтрации списка на основе динамического пункта укажите настройку <code>{\"filter\": [\"id\", \"attrName\", \"$param.id\"]}</code></p>\n</div>",
-      "orderNumber": 170,
+      "orderNumber": 180,
       "class": "navMission",
       "options": {
         "showDescription": true

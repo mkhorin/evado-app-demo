@@ -77,9 +77,9 @@ module.exports = {
     params: {
         'dataHistoryTruncationThreshold': 10,
         'dataHistoryTruncationOffset': 5,
-        'enablePasswordChange': false,
+        'enablePasswordChange': true,
         'enablePasswordReset': false,
-        'enableSignUp': false,
+        'enableSignUp': true,
         'enableSignUpVerification': false,
         'languageToggle': true
     }

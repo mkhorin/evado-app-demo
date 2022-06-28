@@ -1,5 +1,14 @@
 'use strict';
 
-module.exports = [
-
-];
+module.exports = [{
+    description: 'Tracking user registration',
+    events: 'auth.register',
+    handlers: 'eventTracking'
+}, {
+    description: 'Tracking creation or transition of an object of the Listened class',
+    events: [
+        'meta.base.create.listened',
+        'meta.base.transit.listened'
+    ],
+    handlers: 'eventTracking'
+}];
