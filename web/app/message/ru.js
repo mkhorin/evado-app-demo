@@ -137,6 +137,7 @@ Jam.I18n.meta = {
     'Group hint': 'Подсказка группы',
     'Group is loaded on expanding': 'Группа загружаемая при раскрытии',
     'Group tracked': 'Групповое отслеживание',
+    'Grouping': 'Группировка',
     'Grouping attributes': 'Группировка атрибутов',
 
     'Hash': 'Хэш',

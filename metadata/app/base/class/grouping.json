@@ -238,7 +238,10 @@
       "orderNumber": 1020,
       "parent": "columns",
       "readOnly": false,
-      "required": false
+      "required": false,
+      "options": {
+        "css": "col-xl-6"
+      }
     },
     {
       "name": "rightColumn",
@@ -248,7 +251,10 @@
       "orderNumber": 1030,
       "parent": "columns",
       "readOnly": false,
-      "required": false
+      "required": false,
+      "options": {
+        "css": "col-xl-6"
+      }
     },
     {
       "active": true,
