@@ -1,0 +1,14 @@
+{
+  "label": "Listing view in word",
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "value",
+      "orderNumber": 10
+    },
+    {
+      "name": "_class",
+      "orderNumber": 30
+    }
+  ]
+}

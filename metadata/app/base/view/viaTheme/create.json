@@ -1,0 +1,14 @@
+{
+  "label": "Creation view",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "value",
+      "orderNumber": 10
+    },
+    {
+      "name": "_class",
+      "orderNumber": 30
+    }
+  ]
+}

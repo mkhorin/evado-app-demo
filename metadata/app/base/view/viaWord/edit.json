@@ -1,0 +1,19 @@
+{
+  "label": "Editing view",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "value",
+      "orderNumber": 10
+    },
+    {
+      "name": "themes",
+      "listView": null,
+      "orderNumber": 20
+    },
+    {
+      "name": "_class",
+      "orderNumber": 30
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "label": "Listing in theme",
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "word",
+      "eagerLoading": true,
+      "orderNumber": 10
+    },
+    {
+      "name": "_class",
+      "orderNumber": 30
+    }
+  ]
+}

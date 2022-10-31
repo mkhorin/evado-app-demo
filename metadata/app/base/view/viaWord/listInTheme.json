@@ -1,0 +1,14 @@
+{
+  "label": "Listing view in theme",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "value",
+      "orderNumber": 10
+    },
+    {
+      "name": "_class",
+      "orderNumber": 30
+    }
+  ]
+}

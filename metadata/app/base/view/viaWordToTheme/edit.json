@@ -1,0 +1,20 @@
+{
+  "label": "Editing view",
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "word",
+      "eagerLoading": true,
+      "orderNumber": 10
+    },
+    {
+      "name": "theme",
+      "eagerLoading": true,
+      "orderNumber": 20
+    },
+    {
+      "name": "_class",
+      "orderNumber": 30
+    }
+  ]
+}

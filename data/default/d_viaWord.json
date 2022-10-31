@@ -1,0 +1,92 @@
+[
+  {
+    "_id": {
+      "$oid": "635784b9fb604d4cf71edb86"
+    },
+    "_class": "viaWord",
+    "_creator": null,
+    "value": "Star",
+    "_createdAt": {
+      "$date": "2022-10-25T06:39:53.617Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-10-25T06:52:43.192Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "635784e1fb604d4cf71edb87"
+    },
+    "_class": "viaWord",
+    "_creator": null,
+    "value": "Shuttle",
+    "_createdAt": {
+      "$date": "2022-10-25T06:40:33.256Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-10-25T06:52:39.095Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63578526fb604d4cf71edb8a"
+    },
+    "_class": "viaWord",
+    "_creator": null,
+    "value": "Cloth",
+    "_createdAt": {
+      "$date": "2022-10-25T06:41:42.038Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-10-25T06:52:24.388Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63578539fb604d4cf71edb8b"
+    },
+    "_class": "viaWord",
+    "_creator": null,
+    "value": "Needle",
+    "_createdAt": {
+      "$date": "2022-10-25T06:42:01.629Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-10-25T06:52:19.942Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6357856efb604d4cf71edb8d"
+    },
+    "_class": "viaWord",
+    "_creator": null,
+    "value": "Dog (not in any theme)",
+    "_createdAt": {
+      "$date": "2022-10-25T06:42:54.164Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-10-25T08:47:07.966Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6357858afb604d4cf71edb8e"
+    },
+    "_class": "viaWord",
+    "_creator": null,
+    "value": "Pro (in two themes)",
+    "_createdAt": {
+      "$date": "2022-10-25T06:43:22.059Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-10-25T08:47:24.247Z"
+    }
+  }
+]

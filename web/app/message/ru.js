@@ -153,6 +153,7 @@ Jam.I18n.meta = {
     'Integer value for calculation': 'Целое значение для вычислений',
     'Integer value with input mask': 'Целое значение с маской ввода',
     'Integers with default value': 'Целые числа со значением по умолчанию',
+    'Intermediate link': 'Промежуточная связь',
 
     'Last name': 'Фамилия',
     'Latest version': 'Последняя версия',
@@ -218,26 +219,31 @@ Jam.I18n.meta = {
     'Tab is loaded on activation': 'Вкладка загружаемая при активации',
     'Target planet': 'Целевая планета',
     'Text': 'Текст',
-    'Tracked': 'Отслеживаемый',
     'The current list of values depends on the value of the Color attribute': 'Текущий список значений зависит от значения атрибута "Цвет"',
     'The current state of this object': 'Текущее состояние объекта',
     'The source of values are objects of the Enumeration source class (shown only published)': 'Источником значений являются объекты класса Enumeration source (показаны только опубликованные)',
+    'Theme': 'Тема',
+    'Themes': 'Темы',
     'This attribute is available for modification in the Draft state': 'Этот атрибут доступен для изменения в состоянии черновика',
     'This attribute is available for modification in the Rating state': 'Этот атрибут доступен для изменения в состоянии оценки',
     'This attribute is read-only in the edit view': 'Этот атрибут только для чтения в представлении редактирования',
     'This is a required attribute in the edit view': 'Этот атрибут обязательный в представлении редактирования',
+    'Tracked': 'Отслеживаемый',
     'Transition confirmation: Go back to editing this object?': 'Подтверждение перехода: Вернуться к редактированию этого объекта?',
     'Type': 'Тип',
 
     'Updated at': 'Дата изменения',
 
     'Validation': 'Валидация',
+    'Value': 'Значение',
     'Value is set via class custom behavior': 'Значение устанавливается через пользовательское поведение класса',
     'Value receiver': 'Получатель значения',
     'Value toggle': 'Включатель значения',
     'Versioning': 'Версионирование',
     'Views': 'Представления',
 
+    'Word': 'Слово',
+    'Words': 'Слова',
     'Workflow': 'Бизнес-процесс'
 };
 Jam.I18n['meta.class.className'] = {

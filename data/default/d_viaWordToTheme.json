@@ -1,0 +1,98 @@
+[
+  {
+    "_id": {
+      "$oid": "63578740fb604d4cf71edb95"
+    },
+    "_class": "viaWordToTheme",
+    "_creator": null,
+    "word": {
+      "$oid": "635784e1fb604d4cf71edb87"
+    },
+    "theme": {
+      "$oid": "635785fdfb604d4cf71edb8f"
+    },
+    "_createdAt": {
+      "$date": "2022-10-25T06:50:40.542Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63578766fb604d4cf71edb97"
+    },
+    "_class": "viaWordToTheme",
+    "_creator": null,
+    "word": {
+      "$oid": "635784b9fb604d4cf71edb86"
+    },
+    "theme": {
+      "$oid": "635785fdfb604d4cf71edb8f"
+    },
+    "_createdAt": {
+      "$date": "2022-10-25T06:51:18.168Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63578780fb604d4cf71edb9a"
+    },
+    "_class": "viaWordToTheme",
+    "_creator": null,
+    "word": {
+      "$oid": "63578539fb604d4cf71edb8b"
+    },
+    "theme": {
+      "$oid": "6357863cfb604d4cf71edb90"
+    },
+    "_createdAt": {
+      "$date": "2022-10-25T06:51:44.977Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63578787fb604d4cf71edb9b"
+    },
+    "_class": "viaWordToTheme",
+    "_creator": null,
+    "word": {
+      "$oid": "63578526fb604d4cf71edb8a"
+    },
+    "theme": {
+      "$oid": "6357863cfb604d4cf71edb90"
+    },
+    "_createdAt": {
+      "$date": "2022-10-25T06:51:51.921Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "635799ea23d70b8f4ccef4a4"
+    },
+    "_class": "viaWordToTheme",
+    "_creator": null,
+    "word": {
+      "$oid": "6357858afb604d4cf71edb8e"
+    },
+    "theme": {
+      "$oid": "635785fdfb604d4cf71edb8f"
+    },
+    "_createdAt": {
+      "$date": "2022-10-25T08:10:18.460Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "635799fc23d70b8f4ccef4a5"
+    },
+    "_class": "viaWordToTheme",
+    "_creator": null,
+    "word": {
+      "$oid": "6357858afb604d4cf71edb8e"
+    },
+    "theme": {
+      "$oid": "6357863cfb604d4cf71edb90"
+    },
+    "_createdAt": {
+      "$date": "2022-10-25T08:10:36.505Z"
+    }
+  }
+]
