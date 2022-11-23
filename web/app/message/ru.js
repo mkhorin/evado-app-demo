@@ -74,7 +74,9 @@ Jam.I18n.meta = {
     'Calculate the sum of the values of the previous attributes': 'Вычислить сумму значений предыдущих атрибутов',
     'Calculation source': 'Источник вычислений',
     'Categories': 'Категории',
+    'Categories as checkbox list': 'Категории как флажки',
     'Category': 'Категория',
+    'Category as radio list': 'Категория как радио-кнопки',
     'Check to set the test value': 'Включите, чтобы установить тестовое значение',
     'Check to trigger actions': 'Включите, чтобы вызвать действия',
     'Check to trigger group actions': 'Включите, чтобы вызвать групповое действия',
@@ -88,6 +90,7 @@ Jam.I18n.meta = {
     'Color': 'Цвет',
     'Comments': 'Комментарии',
     'Compare with attribute "Number"': 'Сравнение с атрибутом "Число"',
+    'Conditional validation': 'Условная валидация',
     'Counter': 'Счётчик',
     'Counter sum': 'Сумма счётчиков',
     'Created at': 'Дата создания',
@@ -161,9 +164,11 @@ Jam.I18n.meta = {
     'Local date': 'Локальная дата',
     'Local date with time': 'Докальная дата и время',
 
+    'Message': 'Сообщение',
     'Metadata class': 'Класс метаданных',
     'Multiline text value': 'Многострочное текстовое значение',
     'Multiple references to linked objects': 'Связь с множеством объектов',
+    'Multiple references with a list of objects to choose from': 'Множественная связь со списком объектов для выбора',
 
     'Name': 'Название',
     'Navigation': 'Навигация',
@@ -205,6 +210,7 @@ Jam.I18n.meta = {
     'Shade': 'Оттенок',
     'Simple data': 'Простые данные',
     'Simple group': 'Простая группа',
+    'Single reference with a list of objects to select one of them': 'Одиночная связь со списком объектов для выбора',
     'Single reference with a select box view to a linked object': 'Одиночная связь с представлением список выбора',
     'Size': 'Размер',
     'Start date': 'Дата старта',
@@ -234,6 +240,7 @@ Jam.I18n.meta = {
 
     'Updated at': 'Дата изменения',
 
+    'Validate this string only when "Number" is greater than 50': 'Проверить эту строку только когда "Число" больше 50',
     'Validation': 'Валидация',
     'Value': 'Значение',
     'Value is set via class custom behavior': 'Значение устанавливается через пользовательское поведение класса',
@@ -242,6 +249,7 @@ Jam.I18n.meta = {
     'Versioning': 'Версионирование',
     'Views': 'Представления',
 
+    'Without any category': 'Без категории',
     'Word': 'Слово',
     'Words': 'Слова',
     'Workflow': 'Бизнес-процесс'

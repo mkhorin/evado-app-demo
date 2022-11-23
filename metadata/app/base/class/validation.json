@@ -31,7 +31,7 @@
     {
       "name": "number",
       "label": "Number",
-      "type": "float",
+      "type": "integer",
       "description": "Check an integer and a range of 10 - 100",
       "commonSearchable": false,
       "createOnRead": false,
@@ -165,6 +165,43 @@
       ]
     },
     {
+      "name": "when",
+      "label": "Conditional validation",
+      "type": "string",
+      "description": "Validate only when validator condition is met",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 60,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "hint": "Validate this string only when \"Number\" is greater than 50",
+      "rules": [
+        {
+          "type": "string",
+          "orderNumber": 10,
+          "description": "Validate only when the condition is met",
+          "when": [
+            "$>",
+            ".number",
+            50
+          ],
+          "length": 10
+        }
+      ]
+    },
+    {
       "name": "_class",
       "label": "Metadata class",
       "type": "string",
@@ -177,7 +214,7 @@
       "hideEmpty": false,
       "history": false,
       "multiple": false,
-      "orderNumber": 60,
+      "orderNumber": 70,
       "sortable": false,
       "sortableRelation": false,
       "readOnly": true,
