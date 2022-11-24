@@ -113,6 +113,32 @@
       }
     },
     {
+      "parent": "viaWordToTheme",
+      "name": "viaThemes",
+      "label": "Themes",
+      "orderNumber": 10,
+      "class": "viaTheme"
+    },
+    {
+      "parent": "views",
+      "name": "treeView",
+      "label": "Tree view",
+      "description": "<div lang=\"en\">\n<p>\nThe tree view represents a hierarchical list of objects. \n<br>Each object has a reference to child objects. Child objects can be of any class. \n<br>If parent and children are of the same class (as in this example), then tree level can be recursive. Its depth is determined by references.\n</p>\n</div>\n<div lang=\"ru\">\n<p>\nДревовидный вид представляет иерархический список объектов. \n<br>Каждый объект имеет ссылку на дочерние объекты. Дочерние объекты могут быть любого класса. \n<br>Если родитель и дети одного класса (как в данном примере), то древовидный уровень может быть рекурсивным. Его глубина определяется связями.\n</p>\n</div>",
+      "orderNumber": 10,
+      "class": "treeViewCategory",
+      "view": "rootList",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "parent": "viaWordToTheme",
+      "name": "viaWords",
+      "label": "Words",
+      "orderNumber": 20,
+      "class": "viaWord"
+    },
+    {
       "name": "dates",
       "label": "Dates",
       "description": "<div lang=\"en\">\nDates are stored in database in a general way, but are displayed depending on their view type.\n</div>\n<div lang=\"ru\">\nДаты хранятся в базе данных в общем виде, но отображаются в зависимости от типа их представления.\n</div>",
@@ -189,6 +215,17 @@
       }
     },
     {
+      "parent": "references",
+      "name": "viaWordToTheme",
+      "label": "Intermediate link",
+      "description": "<div lang=\"en\">\n<p>The intermediate link stores relationship between classes. In some cases, this optimizes database operation.\n<br>For example, different  words can be associated with different themes.</p>\n</div>\n<div lang=\"ru\">\n<p>Промежуточная связь хранит отношение между классами. В некоторых случаях, это оптимизирует работу базы данных.\n<br>Например, разные слова могут быть связаны с разными темами.</p>\n</div>",
+      "orderNumber": 40,
+      "class": "viaWordToTheme",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
       "name": "serviceData",
       "label": "Service data",
       "description": "<div lang=\"en\">\nService data is always stored in objects, regardless of the presence of attributes. For users, this data is read-only.\n</div>\n<div lang=\"ru\">\nСлужебные данные всегда сохраняются в объекте, вне зависимости от наличия атрибутов. Для пользователей эти данные доступны только для чтения.\n</div>",
@@ -227,7 +264,7 @@
     {
       "name": "views",
       "label": "Views",
-      "description": "<div lang=\"en\">\n<p>Views override attributes and properties of classes for special cases. By default, the following are used:</p>\n<ul>\n<li><code>list</code>  is a view of objects in a list</li>\n<li><code>create</code> is an object creation view</li>\n<li><code>edit</code> is an object editing view</li>\n<li><code>eager</code> is a view of a greedily loaded object</li>\n</ul>\n<p>Access to objects can be restricted by security at the view level. For example, it is allowed to read objects only in the list view.</p>\n</div>\n<div lang=\"ru\">\n<p>Представления переопределяют атрибуты и свойства классов для особых случаев. По умолчанию используются следующие:</p>\n<ul>\n<li><code>list</code> - представление объектов в списке</li>\n<li><code>create</code> - представление объекта при создании</li>\n<li><code>edit</code> - представление объекта при редактировании</li>\n<li><code>eager</code> - представление объекта при жадной загрузке</li>\n</ul>\n<p>Доступ к объектам может быть ограничен безопасностью на уровне представлений. Например, разрешается просматривать объекты только в представлении списка.</p>\n</div>",
+      "description": "<div lang=\"en\">\n<p>Views override attributes and properties of classes for special cases. By default, the following are used:</p>\n<ul>\n<li><code>list</code>  is a view of objects in a list</li>\n<li><code>create</code> is an object creation view</li>\n<li><code>edit</code> is an object edit view</li>\n<li><code>eager</code> is a view of a greedily loaded object</li>\n</ul>\n<p>Access to objects can be restricted by security at the view level. For example, it is allowed to read objects only in the list view.</p>\n</div>\n<div lang=\"ru\">\n<p>Представления переопределяют атрибуты и свойства классов для особых случаев. По умолчанию используются следующие:</p>\n<ul>\n<li><code>list</code> - представление объектов в списке</li>\n<li><code>create</code> - представление объекта при создании</li>\n<li><code>edit</code> - представление объекта при редактировании</li>\n<li><code>eager</code> - представление объекта при жадной загрузке</li>\n</ul>\n<p>Доступ к объектам может быть ограничен безопасностью на уровне представлений. Например, разрешается просматривать объекты только в представлении списка.</p>\n</div>",
       "orderNumber": 90,
       "class": "views",
       "options": {

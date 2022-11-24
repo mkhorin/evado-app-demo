@@ -77,10 +77,12 @@ Jam.I18n.meta = {
     'Categories as checkbox list': 'Категории как флажки',
     'Category': 'Категория',
     'Category as radio list': 'Категория как радио-кнопки',
+    'Category for tree view': 'Категория для древовида',
     'Check to set the test value': 'Включите, чтобы установить тестовое значение',
     'Check to trigger actions': 'Включите, чтобы вызвать действия',
     'Check to trigger group actions': 'Включите, чтобы вызвать групповое действия',
     'Child attribute': 'Дочерний атрибут',
+    'Child categories': 'Дочерние категории',
     'Child class': 'Дочерний класс',
     'Check an integer and a range of 10 - 100': 'Проверить целое число в диапазоне 10 - 100',
     'Check an unique and required value': 'Проверить уникальность и обязательность значения',
@@ -181,6 +183,7 @@ Jam.I18n.meta = {
     'Original version': 'Исходная версия',
 
     'Parent attribute': 'Родительский атрибут',
+    'Parent category': 'Родительская категория',
     'Parent class': 'Родительский класс',
     'Published': 'Опубликовано',
 
@@ -236,6 +239,7 @@ Jam.I18n.meta = {
     'This is a required attribute in the edit view': 'Этот атрибут обязательный в представлении редактирования',
     'Tracked': 'Отслеживаемый',
     'Transition confirmation: Go back to editing this object?': 'Подтверждение перехода: Вернуться к редактированию этого объекта?',
+    'Tree view': 'Древовидный вид',
     'Type': 'Тип',
 
     'Updated at': 'Дата изменения',

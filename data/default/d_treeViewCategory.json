@@ -1,0 +1,313 @@
+[
+  {
+    "_id": {
+      "$oid": "637d8594486760378dfeec5b"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "name": "Outer space",
+    "description": "Congue mauris est dignissim justo in in nibh amet urna auctor",
+    "parent": null,
+    "_createdAt": {
+      "$date": "2022-11-23T02:29:40.507Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:41:29.060Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d85bb486760378dfeec5c"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "name": "Food",
+    "description": "Ipsum vel vitae nulla elit sodales fames quis eu venenatis ut",
+    "parent": null,
+    "_createdAt": {
+      "$date": "2022-11-23T02:30:19.139Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:39:01.733Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d8678486760378dfeec5d"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d85bb486760378dfeec5c"
+    },
+    "name": "Fruit",
+    "description": "Adipiscing non sollicitudin est felis wisi facilisis sapien pellentesque id lorem",
+    "_createdAt": {
+      "$date": "2022-11-23T02:33:28.634Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:36:08.975Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d86ac486760378dfeec5e"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d85bb486760378dfeec5c"
+    },
+    "name": "Meat",
+    "description": "Nulla non dapibus pretium Vestibulum laoreet condimentum elit",
+    "_createdAt": {
+      "$date": "2022-11-23T02:34:20.611Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:38:59.594Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d86d8486760378dfeec5f"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d8678486760378dfeec5d"
+    },
+    "name": "Tropical",
+    "description": "Curabitur lorem facilisi Lorem consequat porta In et et",
+    "_createdAt": {
+      "$date": "2022-11-23T02:35:04.686Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:36:08.977Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d8703486760378dfeec60"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d8678486760378dfeec5d"
+    },
+    "name": "Apples",
+    "description": "Vivamus enim tempor enim mauris convallis justo",
+    "_createdAt": {
+      "$date": "2022-11-23T02:35:47.652Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:36:08.978Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d8717486760378dfeec61"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d8678486760378dfeec5d"
+    },
+    "name": "Wild plants",
+    "description": "Phasellus et pellentesque eget rutrum condimentum dis et",
+    "_createdAt": {
+      "$date": "2022-11-23T02:36:07.642Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:36:08.981Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d8770486760378dfeec62"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d86ac486760378dfeec5e"
+    },
+    "name": "Beef",
+    "description": "Ut vitae enim elit eget interdum tincidunt accumsan",
+    "_createdAt": {
+      "$date": "2022-11-23T02:37:36.192Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:38:56.132Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d878a486760378dfeec63"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d86ac486760378dfeec5e"
+    },
+    "name": "Chicken",
+    "description": "Quisque egestas adipiscing tortor",
+    "_createdAt": {
+      "$date": "2022-11-23T02:38:02.477Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:38:56.134Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d87be486760378dfeec64"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d86ac486760378dfeec5e"
+    },
+    "name": "Sheepmeat",
+    "description": "Morbi vel semper metus dui justo elit fames tortor enim",
+    "_createdAt": {
+      "$date": "2022-11-23T02:38:54.792Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:38:56.136Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d87ef486760378dfeec65"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d8594486760378dfeec5b"
+    },
+    "name": "Planets",
+    "description": "Lorem ipsum dolor sit amet consectetuer consequat",
+    "_createdAt": {
+      "$date": "2022-11-23T02:39:43.876Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:41:29.062Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d8806486760378dfeec66"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d8594486760378dfeec5b"
+    },
+    "name": "Stars",
+    "description": "Curabitur rutrum leo vestibulum mi tincidunt",
+    "_createdAt": {
+      "$date": "2022-11-23T02:40:06.007Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:41:29.064Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d881d486760378dfeec67"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d87ef486760378dfeec65"
+    },
+    "name": "Mars",
+    "description": "Cursus laoreet enim donec porttitor",
+    "_createdAt": {
+      "$date": "2022-11-23T02:40:29.531Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:41:19.794Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d882d486760378dfeec68"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d87ef486760378dfeec65"
+    },
+    "name": "Saturn",
+    "description": "Ac porta consequat natoque quisque",
+    "_createdAt": {
+      "$date": "2022-11-23T02:40:45.762Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:41:19.797Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "637d884d486760378dfeec69"
+    },
+    "_class": "treeViewCategory",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "parent": {
+      "$oid": "637d87ef486760378dfeec65"
+    },
+    "name": "Jupiter",
+    "description": "Nunc vitae ut arcu ut vitae enim orci ridiculus",
+    "_createdAt": {
+      "$date": "2022-11-23T02:41:17.318Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-11-23T02:41:19.798Z"
+    }
+  }
+]

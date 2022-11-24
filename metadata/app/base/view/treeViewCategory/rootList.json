@@ -1,0 +1,18 @@
+{
+  "label": "Root list",
+  "description": "Root categories without parents",
+  "filter": {
+    "parent": null
+  },
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "name",
+      "orderNumber": 10
+    },
+    {
+      "name": "description",
+      "orderNumber": 20
+    }
+  ]
+}
