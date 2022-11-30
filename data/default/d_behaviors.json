@@ -4,7 +4,9 @@
       "$oid": "6209bf6d9c945a58680d5a36"
     },
     "_class": "behaviors",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "string": "Updated at 14.02.2022, 12:36:09 from custom behavior",
     "_createdAt": {
       "$date": "2022-02-14T02:33:17.326Z"

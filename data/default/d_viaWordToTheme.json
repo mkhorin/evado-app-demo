@@ -4,7 +4,9 @@
       "$oid": "63578740fb604d4cf71edb95"
     },
     "_class": "viaWordToTheme",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "word": {
       "$oid": "635784e1fb604d4cf71edb87"
     },
@@ -20,7 +22,9 @@
       "$oid": "63578766fb604d4cf71edb97"
     },
     "_class": "viaWordToTheme",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "word": {
       "$oid": "635784b9fb604d4cf71edb86"
     },
@@ -36,7 +40,9 @@
       "$oid": "63578780fb604d4cf71edb9a"
     },
     "_class": "viaWordToTheme",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "word": {
       "$oid": "63578539fb604d4cf71edb8b"
     },
@@ -52,7 +58,9 @@
       "$oid": "63578787fb604d4cf71edb9b"
     },
     "_class": "viaWordToTheme",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "word": {
       "$oid": "63578526fb604d4cf71edb8a"
     },
@@ -68,7 +76,9 @@
       "$oid": "635799ea23d70b8f4ccef4a4"
     },
     "_class": "viaWordToTheme",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "word": {
       "$oid": "6357858afb604d4cf71edb8e"
     },
@@ -84,7 +94,9 @@
       "$oid": "635799fc23d70b8f4ccef4a5"
     },
     "_class": "viaWordToTheme",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "word": {
       "$oid": "6357858afb604d4cf71edb8e"
     },

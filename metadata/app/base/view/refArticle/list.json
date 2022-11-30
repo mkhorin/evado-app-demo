@@ -1,0 +1,22 @@
+{
+  "label": "List view",
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "text",
+      "orderNumber": 10
+    },
+    {
+      "name": "category",
+      "orderNumber": 20
+    },
+    {
+      "name": "categories",
+      "orderNumber": 40
+    },
+    {
+      "name": "_class",
+      "orderNumber": 60
+    }
+  ]
+}

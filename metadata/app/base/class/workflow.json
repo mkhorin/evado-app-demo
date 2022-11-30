@@ -80,14 +80,14 @@
         {
           "items": [
             {
-              "value": "bad",
+              "orderNumber": 10,
               "text": "Bad",
-              "orderNumber": 10
+              "value": "bad"
             },
             {
-              "value": "good",
+              "orderNumber": 20,
               "text": "Good",
-              "orderNumber": 20
+              "value": "good"
             }
           ]
         }
@@ -169,10 +169,10 @@
         "$notEmpty",
         ".rating"
       ],
-      "orderNumber": 20,
       "options": {
         "jam": "Archive"
-      }
+      },
+      "orderNumber": 20
     },
     {
       "name": "edit",

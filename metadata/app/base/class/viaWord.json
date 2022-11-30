@@ -1,8 +1,8 @@
 {
   "abstract": false,
+  "description": "Class for intermediate link",
   "header": ".value",
   "label": "Word",
-  "description": "Class for intermediate link",
   "attrs": [
     {
       "name": "value",

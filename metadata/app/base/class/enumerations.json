@@ -31,20 +31,20 @@
         {
           "items": [
             {
-              "value": "first",
+              "orderNumber": 10,
               "text": "First value",
-              "orderNumber": 10
+              "value": "first"
             },
             {
-              "value": "second",
-              "text": "Second value (with hint)",
               "hint": "Second value hint",
-              "orderNumber": 20
+              "orderNumber": 20,
+              "text": "Second value (with hint)",
+              "value": "second"
             },
             {
-              "value": "third",
+              "orderNumber": 30,
               "text": "Third value",
-              "orderNumber": 30
+              "value": "third"
             }
           ]
         }
@@ -78,20 +78,20 @@
         {
           "items": [
             {
-              "value": "red",
+              "orderNumber": 10,
               "text": "Red",
-              "orderNumber": 10
+              "value": "red"
             },
             {
-              "value": "blue",
-              "text": "Blue",
               "hint": "Blue hint",
-              "orderNumber": 20
+              "orderNumber": 20,
+              "text": "Blue",
+              "value": "blue"
             },
             {
-              "value": "any",
+              "orderNumber": 30,
               "text": "Any",
-              "orderNumber": 30
+              "value": "any"
             }
           ]
         }
@@ -131,14 +131,14 @@
           },
           "items": [
             {
-              "value": "redYellow",
+              "orderNumber": 10,
               "text": "Red-yellow",
-              "orderNumber": 10
+              "value": "redYellow"
             },
             {
-              "value": "redBlack",
+              "orderNumber": 20,
               "text": "Red-black",
-              "orderNumber": 20
+              "value": "redBlack"
             }
           ]
         },
@@ -151,14 +151,14 @@
           },
           "items": [
             {
-              "value": "blueYellow",
+              "orderNumber": 10,
               "text": "Blue-yellow",
-              "orderNumber": 10
+              "value": "blueYellow"
             },
             {
-              "value": "blueBlack",
+              "orderNumber": 20,
               "text": "Blue-black",
-              "orderNumber": 20
+              "value": "blueBlack"
             }
           ]
         },
@@ -169,9 +169,9 @@
           ],
           "items": [
             {
-              "value": "none",
+              "orderNumber": 10,
               "text": "None",
-              "orderNumber": 10
+              "value": "none"
             }
           ]
         }

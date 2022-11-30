@@ -1,12 +1,15 @@
 'use strict';
 
-const Base = require('areto/view/ViewModel');
+const Base = require('evado-module-office/view/model/model/create');
 
 module.exports = class CreationViewModel extends Base {
 
     async resolveTemplateData () {
+        const data = await super.resolveTemplateData();
+        const studioClassId = await this.getStudioClassId(this.data.model.class.name);
         return {
-            studioClassId: await this.getStudioClassId(this.data.model.class.name)
+            ...data,
+            studioClassId
         };
     }
 

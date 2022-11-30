@@ -4,7 +4,9 @@
       "$oid": "635785fdfb604d4cf71edb8f"
     },
     "_class": "viaTheme",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "value": "Space",
     "_createdAt": {
       "$date": "2022-10-25T06:45:17.071Z"
@@ -15,7 +17,9 @@
       "$oid": "6357863cfb604d4cf71edb90"
     },
     "_class": "viaTheme",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "value": "Craft",
     "_createdAt": {
       "$date": "2022-10-25T06:46:20.349Z"

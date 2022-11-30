@@ -182,12 +182,17 @@
       "description": "Read-only value mask.\nMasks decorate values for users. Use validators to check values.",
       "commonSearchable": false,
       "createOnRead": false,
+      "defaultValue": 123456,
       "eagerLoading": false,
       "escape": false,
       "hidden": false,
       "hideEmpty": false,
+      "hint": "Read-only value mask",
       "history": false,
       "multiple": false,
+      "options": {
+        "mask": "(99) (99) (99)"
+      },
       "orderNumber": 100,
       "sortable": false,
       "sortableRelation": false,
@@ -196,12 +201,7 @@
       "selectSearchable": false,
       "signed": false,
       "trim": true,
-      "unique": false,
-      "defaultValue": 123456,
-      "hint": "Read-only value mask",
-      "options": {
-        "mask": "(99) (99) (99)"
-      }
+      "unique": false
     },
     {
       "name": "_class",

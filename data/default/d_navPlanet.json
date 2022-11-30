@@ -4,7 +4,9 @@
       "$oid": "623139651b904a8d0e5ee764"
     },
     "_class": "navPlanet",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "name": "Mercury",
     "description": "Amet gravida malesuada Nulla Vestibulum a tellus interdum nibh consectetuer auctor.",
     "_createdAt": {
@@ -16,7 +18,9 @@
       "$oid": "623139871b904a8d0e5ee765"
     },
     "_class": "navPlanet",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "name": "Venus",
     "description": "Dui In purus sit fringilla pretium vestibulum est Phasellus scelerisque condimentum.",
     "_createdAt": {
@@ -28,7 +32,9 @@
       "$oid": "6231399c1b904a8d0e5ee766"
     },
     "_class": "navPlanet",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "name": "Mars",
     "description": "Congue fringilla id id purus elit adipiscing Phasellus.",
     "_createdAt": {

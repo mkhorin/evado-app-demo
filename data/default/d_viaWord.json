@@ -4,7 +4,9 @@
       "$oid": "635784b9fb604d4cf71edb86"
     },
     "_class": "viaWord",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "value": "Star",
     "_createdAt": {
       "$date": "2022-10-25T06:39:53.617Z"
@@ -19,7 +21,9 @@
       "$oid": "635784e1fb604d4cf71edb87"
     },
     "_class": "viaWord",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "value": "Shuttle",
     "_createdAt": {
       "$date": "2022-10-25T06:40:33.256Z"
@@ -34,7 +38,9 @@
       "$oid": "63578526fb604d4cf71edb8a"
     },
     "_class": "viaWord",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "value": "Cloth",
     "_createdAt": {
       "$date": "2022-10-25T06:41:42.038Z"
@@ -49,7 +55,9 @@
       "$oid": "63578539fb604d4cf71edb8b"
     },
     "_class": "viaWord",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "value": "Needle",
     "_createdAt": {
       "$date": "2022-10-25T06:42:01.629Z"
@@ -64,7 +72,9 @@
       "$oid": "6357856efb604d4cf71edb8d"
     },
     "_class": "viaWord",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "value": "Dog (not in any theme)",
     "_createdAt": {
       "$date": "2022-10-25T06:42:54.164Z"
@@ -79,7 +89,9 @@
       "$oid": "6357858afb604d4cf71edb8e"
     },
     "_class": "viaWord",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "value": "Pro (in two themes)",
     "_createdAt": {
       "$date": "2022-10-25T06:43:22.059Z"

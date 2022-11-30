@@ -5,7 +5,9 @@
     },
     "_state": "archived",
     "_class": "workflow",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "text": "Sed auctor pellentesque risus",
     "_createdAt": {
       "$date": "2022-02-18T23:37:32.285Z"
@@ -23,7 +25,9 @@
     },
     "_state": "rating",
     "_class": "workflow",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "text": "Lorem ipsum dolor sit amet consectetuer",
     "_createdAt": {
       "$date": "2022-02-18T23:39:35.003Z"
@@ -41,7 +45,9 @@
     },
     "_state": "draft",
     "_class": "workflow",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "text": "Cum et accumsan nec nibh",
     "_createdAt": {
       "$date": "2022-02-18T23:41:07.425Z"

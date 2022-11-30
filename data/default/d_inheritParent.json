@@ -4,7 +4,9 @@
       "$oid": "621570034867fd7960680539"
     },
     "_class": "inheritGrandchild",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "parent": "Default value from child",
     "child": "Curabitur justo id condimentum",
     "grandchild": "Tempus malesuada consequat",
@@ -17,7 +19,9 @@
       "$oid": "6215701b4867fd796068053a"
     },
     "_class": "inheritChild",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "parent": "Default value from child",
     "child": "Vestibulum nibh justo",
     "_createdAt": {
@@ -29,7 +33,9 @@
       "$oid": "621570384867fd796068053b"
     },
     "_class": "inheritParent",
-    "_creator": null,
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
     "parent": "Ante tristique tincidunt",
     "_createdAt": {
       "$date": "2022-02-22T23:22:32.135Z"

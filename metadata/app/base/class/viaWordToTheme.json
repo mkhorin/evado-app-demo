@@ -1,7 +1,7 @@
 {
   "abstract": false,
-  "label": "Word to theme",
   "description": "Intermediate link stores relationships between classes",
+  "label": "Word to theme",
   "attrs": [
     {
       "name": "word",

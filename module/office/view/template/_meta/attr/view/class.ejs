@@ -2,9 +2,10 @@
 <%
 const cls = model.class.meta.getClass(model.get(attr));
 if (cls) {
-    const value = _escape(cls.title);
-    const url =`/studio/class?frame=${encodeURIComponent('/studio/class/update?id=')}${studioClassId}`;
-    model.setDisplayValue(attr, `<a href="${url}" target="_blank">${value}</a> <span class="text-secondary">(${cls.name})</span>`);
+    const title = _escape(cls.title);
+    const frame = encodeURIComponent('/studio/class/update?id=');
+    const url = `/studio/class?frame=${frame}${studioClassId}`;
+    model.setDisplayValue(attr, `<a href="${url}" target="_blank">${title}</a> <span class="text-secondary">(${cls.name})</span>`);
 }
 %>
 <%- include(_view.get('_meta/attr/static'), {formatted: true}) %>

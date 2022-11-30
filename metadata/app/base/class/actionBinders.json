@@ -17,13 +17,13 @@
       "multiple": false,
       "orderNumber": 10,
       "actionBinder": {
-        "require": {
-          "tracked": false
-        },
+        "description": "Attribute is required if the tracked attribute is false\nAttribute is enabled if the tracked attribute is false",
         "enable": {
           "tracked": false
         },
-        "description": "Attribute is required if the tracked attribute is false\nAttribute is enabled if the tracked attribute is false"
+        "require": {
+          "tracked": false
+        }
       },
       "sortable": false,
       "sortableRelation": false,
@@ -74,10 +74,11 @@
       "multiple": false,
       "orderNumber": 30,
       "actionBinder": {
-        "show": {
+        "description": "Attribute is visible if the tracked attribute is true\nAttribute is required if the tracked attribute is true\nSet empty value if the tracked attribute is true",
+        "require": {
           "tracked": true
         },
-        "require": {
+        "show": {
           "tracked": true
         },
         "value": [
@@ -85,8 +86,7 @@
           {
             "tracked": false
           }
-        ],
-        "description": "Attribute is visible if the tracked attribute is true\nAttribute is required if the tracked attribute is true\nSet empty value if the tracked attribute is true"
+        ]
       },
       "sortable": false,
       "sortableRelation": false,
@@ -111,6 +111,7 @@
       "multiple": false,
       "orderNumber": 40,
       "actionBinder": {
+        "description": "Attribute is visible if the tracked attribute is true and the first name attribute is not empty",
         "show": [
           {
             "tracked": true
@@ -119,8 +120,7 @@
             "notEmpty",
             "firstName"
           ]
-        ],
-        "description": "Attribute is visible if the tracked attribute is true and the first name attribute is not empty"
+        ]
       },
       "sortable": false,
       "sortableRelation": false,
@@ -169,6 +169,7 @@
       "multiple": false,
       "orderNumber": 60,
       "actionBinder": {
+        "description": "Set the test value if the value toggle checkbox is selected and the checkbox is a change trigger",
         "value": [
           "Test value",
           [
@@ -180,8 +181,7 @@
               "valueToggle"
             ]
           ]
-        ],
-        "description": "Set the test value if the value toggle checkbox is selected and the checkbox is a change trigger"
+        ]
       },
       "sortable": false,
       "sortableRelation": false,
@@ -288,9 +288,10 @@
   ],
   "groups": [
     {
-      "active": true,
       "name": "info",
       "label": "Information",
+      "active": true,
+      "hidden": false,
       "loadable": false,
       "orderNumber": 1000,
       "readOnly": false,

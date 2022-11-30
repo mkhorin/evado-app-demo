@@ -175,6 +175,7 @@
       "escape": true,
       "hidden": false,
       "hideEmpty": false,
+      "hint": "Validate this string only when \"Number\" is greater than 50",
       "history": false,
       "multiple": false,
       "orderNumber": 60,
@@ -186,7 +187,6 @@
       "signed": false,
       "trim": true,
       "unique": false,
-      "hint": "Validate this string only when \"Number\" is greater than 50",
       "rules": [
         {
           "type": "string",
