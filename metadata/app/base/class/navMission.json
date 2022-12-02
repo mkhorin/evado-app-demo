@@ -37,6 +37,13 @@
       ],
       "commonSearchable": false,
       "createOnRead": false,
+      "defaultValue": [
+        "$id",
+        [
+          "$param",
+          "id"
+        ]
+      ],
       "eagerLoading": true,
       "escape": true,
       "hidden": false,
