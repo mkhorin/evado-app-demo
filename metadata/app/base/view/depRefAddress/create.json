@@ -1,0 +1,42 @@
+{
+  "label": "Create address",
+  "description": "Class view when creating an object",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "country",
+      "orderNumber": 10
+    },
+    {
+      "name": "town",
+      "actionBinder": {
+        "enable": [
+          "notEmpty",
+          "country"
+        ]
+      },
+      "options": {
+        "relation": {
+          "depends": "country"
+        }
+      },
+      "orderNumber": 20
+    },
+    {
+      "name": "street",
+      "actionBinder": {
+        "enable": [
+          "notEmpty",
+          "town"
+        ]
+      },
+      "options": {
+        "relation": {
+          "depends": "town"
+        }
+      },
+      "orderNumber": 30,
+      "selectListView": "dependentList"
+    }
+  ]
+}

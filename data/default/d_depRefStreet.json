@@ -1,0 +1,118 @@
+[
+  {
+    "_id": {
+      "$oid": "63896429482a6fa6c757810f"
+    },
+    "_class": "depRefStreet",
+    "_creator": null,
+    "name": "La Canebiere",
+    "town": {
+      "$oid": "6389622b482a6fa6c757810a"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:34:17.239Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63896447482a6fa6c7578110"
+    },
+    "_class": "depRefStreet",
+    "_creator": null,
+    "name": "Rue Saint-Ferreol",
+    "town": {
+      "$oid": "6389622b482a6fa6c757810a"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:34:47.857Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6389646f482a6fa6c7578111"
+    },
+    "_class": "depRefStreet",
+    "_creator": null,
+    "name": "Champs Elysees",
+    "town": {
+      "$oid": "6389623a482a6fa6c757810b"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:35:27.305Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "638964b2482a6fa6c7578112"
+    },
+    "_class": "depRefStreet",
+    "_creator": null,
+    "name": "Richelieu",
+    "town": {
+      "$oid": "6389623a482a6fa6c757810b"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:36:34.001Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "638964e8482a6fa6c7578113"
+    },
+    "_class": "depRefStreet",
+    "_creator": null,
+    "name": "Bat Su",
+    "town": {
+      "$oid": "638963e5482a6fa6c757810d"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:37:28.103Z"
+    },
+    "_editor": null,
+    "_updatedAt": {
+      "$date": "2022-12-02T02:38:05.390Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63896516482a6fa6c7578114"
+    },
+    "_class": "depRefStreet",
+    "_creator": null,
+    "name": "Bat Dan",
+    "town": {
+      "$oid": "638963e5482a6fa6c757810d"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:38:14.223Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63896538482a6fa6c7578115"
+    },
+    "_class": "depRefStreet",
+    "_creator": null,
+    "name": "Tran Hung Dao",
+    "town": {
+      "$oid": "63896406482a6fa6c757810e"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:38:48.484Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6389654e482a6fa6c7578116"
+    },
+    "_class": "depRefStreet",
+    "_creator": null,
+    "name": "Bach Dang",
+    "town": {
+      "$oid": "63896406482a6fa6c757810e"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:39:10.121Z"
+    }
+  }
+]

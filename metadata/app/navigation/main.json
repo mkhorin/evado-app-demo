@@ -132,6 +132,13 @@
       }
     },
     {
+      "parent": "depRefData",
+      "name": "depRefCountry",
+      "label": "Countries",
+      "orderNumber": 10,
+      "class": "depRefCountry"
+    },
+    {
       "parent": "viaWordToTheme",
       "name": "viaWords",
       "label": "Words",
@@ -181,6 +188,13 @@
       "class": "versionLatest"
     },
     {
+      "parent": "depRefData",
+      "name": "depRefTown",
+      "label": "Towns",
+      "orderNumber": 20,
+      "class": "depRefTown"
+    },
+    {
       "name": "enumerations",
       "label": "Enumerations",
       "description": "<div lang=\"en\">\nEnumerations provide a choice of one of the defined values. Each value can have a label and a hint.\n</div>\n<div lang=\"ru\">\nПеречисления предоставляют выбор одного из определенных значений. Каждое значение может иметь ярлык и подсказку.\n</div>",
@@ -205,6 +219,13 @@
       "class": "inheritGrandchild"
     },
     {
+      "parent": "depRefData",
+      "name": "depRefStreet",
+      "label": "Streets",
+      "orderNumber": 30,
+      "class": "depRefStreet"
+    },
+    {
       "name": "calculated",
       "label": "Calculated values",
       "description": "<div lang=\"en\">\nCalculating values are not stored, but are obtained from a given expression.\n</div>\n<div lang=\"ru\">\nВычисляемые значения не хранятся, а рассчитываются из заданного выражения.\n</div>",
@@ -216,10 +237,21 @@
     },
     {
       "parent": "references",
+      "name": "depRefData",
+      "label": "Dependent data",
+      "description": "<div lang=\"en\">\n<p>Creating a dependent selection of objects using address example .\n<br>The following settings are required for Town:\n</p><ul>\n<li>- create a list view with dependency filter in Town class: <code>{\"country\": \"$dependency.country\"}</code>.</li>\n<li>- create views in Address class - <code>create</code>, <code>edit</code>. If you configure dependent attributes directly in the class, it will be impossible to select any value for search filters.</li>\n<li>- set selection list view with filter for Town attribute in Address views.</li>\n<li>- define data that will be taken for filtering from form: <code>{\"relation\": { \"depends\": \"country\"}}</code>.</li>\n</ul></div>\n<div lang=\"ru\">\n<p>На примере адреса показано создание зависимого выбора объектов.\n<br>Для города необходимы следующие настройки:\n</p><ul>\n<li>- создать в Городе представление списка с фильтром по зависимостям: <code>{\"country\": \"$dependency.country\"}</code>.</li>\n<li>- создать в Адресе представления - <code>create</code>, <code>edit</code>. Если настроить зависимые атрибуты прямо в классе, то невозможно будет выбирать любое значение для поискового фильтра.</li>\n<li>- установить у атрибута Город (в представлениях Адреса) представление списка выбора с фильтром.</li>\n<li>- там же определить какие значения брать с формы для фильтра: <code>{\"relation\": { \"depends\": \"country\"}}</code>.</li>\n</ul></div>",
+      "orderNumber": 40,
+      "class": "depRefAddress",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "parent": "references",
       "name": "viaWordToTheme",
       "label": "Intermediate link",
       "description": "<div lang=\"en\">\n<p>The intermediate link stores relationship between classes. In some cases, this optimizes database operation.\n<br>For example, different  words can be associated with different themes.</p>\n</div>\n<div lang=\"ru\">\n<p>Промежуточная связь хранит отношение между классами. В некоторых случаях, это оптимизирует работу базы данных.\n<br>Например, разные слова могут быть связаны с разными темами.</p>\n</div>",
-      "orderNumber": 40,
+      "orderNumber": 50,
       "class": "viaWordToTheme",
       "options": {
         "showDescription": true

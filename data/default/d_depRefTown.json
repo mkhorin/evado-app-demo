@@ -1,0 +1,58 @@
+[
+  {
+    "_id": {
+      "$oid": "6389622b482a6fa6c757810a"
+    },
+    "_class": "depRefTown",
+    "_creator": null,
+    "name": "Marcel",
+    "country": {
+      "$oid": "638961cf482a6fa6c7578108"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:25:47.501Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6389623a482a6fa6c757810b"
+    },
+    "_class": "depRefTown",
+    "_creator": null,
+    "name": "Paris",
+    "country": {
+      "$oid": "638961cf482a6fa6c7578108"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:26:02.122Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "638963e5482a6fa6c757810d"
+    },
+    "_class": "depRefTown",
+    "_creator": null,
+    "name": "Hanoi",
+    "country": {
+      "$oid": "638961f9482a6fa6c7578109"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:33:09.558Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63896406482a6fa6c757810e"
+    },
+    "_class": "depRefTown",
+    "_creator": null,
+    "name": "Da Nang",
+    "country": {
+      "$oid": "638961f9482a6fa6c7578109"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T02:33:42.957Z"
+    }
+  }
+]

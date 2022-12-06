@@ -1,0 +1,44 @@
+[
+  {
+    "_id": {
+      "$oid": "638a69732054de401d0a3ebd"
+    },
+    "_class": "depRefAddress",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "country": {
+      "$oid": "638961cf482a6fa6c7578108"
+    },
+    "town": {
+      "$oid": "6389622b482a6fa6c757810a"
+    },
+    "street": {
+      "$oid": "63896447482a6fa6c7578110"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T21:09:07.151Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "638a697c2054de401d0a3ebe"
+    },
+    "_class": "depRefAddress",
+    "_creator": {
+      "$oid": "6201f95bf0dce7500048cdca"
+    },
+    "country": {
+      "$oid": "638961f9482a6fa6c7578109"
+    },
+    "town": {
+      "$oid": "638963e5482a6fa6c757810d"
+    },
+    "street": {
+      "$oid": "63896516482a6fa6c7578114"
+    },
+    "_createdAt": {
+      "$date": "2022-12-02T21:09:16.166Z"
+    }
+  }
+]

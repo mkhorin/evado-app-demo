@@ -1,0 +1,53 @@
+{
+  "abstract": false,
+  "header": ".name",
+  "label": "Country",
+  "description": "Class for dependent reference data",
+  "attrs": [
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "string",
+      "commonSearchable": true,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 10,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": true,
+      "signed": false,
+      "trim": true,
+      "unique": true
+    },
+    {
+      "name": "_class",
+      "label": "Metadata class",
+      "type": "string",
+      "viewType": "class",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": true,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ]
+}

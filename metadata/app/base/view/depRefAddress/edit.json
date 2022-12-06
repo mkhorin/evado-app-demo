@@ -1,0 +1,36 @@
+{
+  "label": "Edit address",
+  "description": "Class view when editing an object",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "country",
+      "orderNumber": 10
+    },
+    {
+      "name": "town",
+      "options": {
+        "relation": {
+          "depends": "country"
+        }
+      },
+      "orderNumber": 20,
+      "selectListView": "dependentList"
+    },
+    {
+      "name": "street",
+      "actionBinder": {},
+      "orderNumber": 30,
+      "selectListView": "dependentList",
+      "options": {
+        "relation": {
+          "depends": "town"
+        }
+      }
+    },
+    {
+      "name": "_class",
+      "orderNumber": 40
+    }
+  ]
+}

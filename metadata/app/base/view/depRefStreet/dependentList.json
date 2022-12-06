@@ -1,0 +1,13 @@
+{
+  "label": "Dependent list",
+  "filter": {
+    "town": "$dependency.town"
+  },
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "name",
+      "orderNumber": 10
+    }
+  ]
+}

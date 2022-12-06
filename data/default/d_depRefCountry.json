@@ -1,0 +1,24 @@
+[
+  {
+    "_id": {
+      "$oid": "638961cf482a6fa6c7578108"
+    },
+    "_class": "depRefCountry",
+    "_creator": null,
+    "name": "France",
+    "_createdAt": {
+      "$date": "2022-12-02T02:24:15.909Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "638961f9482a6fa6c7578109"
+    },
+    "_class": "depRefCountry",
+    "_creator": null,
+    "name": "Vietnam",
+    "_createdAt": {
+      "$date": "2022-12-02T02:24:57.321Z"
+    }
+  }
+]

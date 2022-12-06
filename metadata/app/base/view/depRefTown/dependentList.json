@@ -1,0 +1,13 @@
+{
+  "label": "Dependent list",
+  "filter": {
+    "country": "$dependency.country"
+  },
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "name",
+      "orderNumber": 10
+    }
+  ]
+}
