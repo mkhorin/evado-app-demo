@@ -1,5 +1,4 @@
-
-:root:lang(en) :lang(ru),
-:root:lang(ru) :lang(en) {
+:root:lang(en) [lang]:not([lang="en"]),
+:root:lang(ru) [lang]:not([lang="ru"]) {
     display: none !important;
 }

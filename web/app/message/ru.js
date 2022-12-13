@@ -128,7 +128,7 @@ Jam.I18n.meta = {
     'Extended hint\nSecond attribute hint line\nThird hint line': 'Расширенная подсказка\nВторая срока подсказки\nТретья строка посказки',
 
     'File': 'Файл',
-    'File ID in storage': 'Идентфикатор файла в хранилище',
+    'File ID in storage': 'Идентификатор файла в хранилище',
     'Filename is used when downloading': 'Имя файла используется при скачивании',
     'Files': 'Файлы',
     'First': 'Первый',

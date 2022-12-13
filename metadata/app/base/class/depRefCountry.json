@@ -1,8 +1,8 @@
 {
   "abstract": false,
+  "description": "Class for dependent reference data",
   "header": ".name",
   "label": "Country",
-  "description": "Class for dependent reference data",
   "attrs": [
     {
       "name": "name",

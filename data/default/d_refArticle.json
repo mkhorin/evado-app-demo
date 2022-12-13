@@ -22,11 +22,20 @@
     "_createdAt": {
       "$date": "2022-02-09T01:39:51.546Z"
     },
-    "_editor": {
-      "$oid": "6201f95bf0dce7500048cdca"
-    },
+    "_editor": null,
     "_updatedAt": {
-      "$date": "2022-02-09T01:45:48.285Z"
+      "$date": "2022-12-02T21:08:21.021Z"
+    },
+    "checkboxCategories": [
+      {
+        "$oid": "62031b3c4ddc823b6e4ac950"
+      },
+      {
+        "$oid": "62031b454ddc823b6e4ac951"
+      }
+    ],
+    "radioCategory": {
+      "$oid": "62031b3c4ddc823b6e4ac950"
     }
   },
   {
@@ -52,11 +61,11 @@
     "_createdAt": {
       "$date": "2022-02-09T01:43:54.007Z"
     },
-    "_editor": {
-      "$oid": "6201f95bf0dce7500048cdca"
-    },
+    "_editor": null,
     "_updatedAt": {
-      "$date": "2022-02-09T01:46:23.144Z"
-    }
+      "$date": "2022-12-02T21:07:58.019Z"
+    },
+    "checkboxCategories": [],
+    "radioCategory": null
   }
 ]

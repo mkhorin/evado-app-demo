@@ -20,7 +20,8 @@
           "depends": "country"
         }
       },
-      "orderNumber": 20
+      "orderNumber": 20,
+      "selectListView": "dependentList"
     },
     {
       "name": "street",

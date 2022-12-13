@@ -136,8 +136,7 @@
   ],
   "treeView": [
     {
-      "refAttr": "children",
-      "recursive": true
+      "refAttr": "children"
     }
   ]
 }
