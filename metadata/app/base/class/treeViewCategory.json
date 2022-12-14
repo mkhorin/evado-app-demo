@@ -133,10 +133,5 @@
       "trim": true,
       "unique": false
     }
-  ],
-  "treeView": [
-    {
-      "refAttr": "children"
-    }
   ]
 }

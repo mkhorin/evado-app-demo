@@ -126,7 +126,7 @@
       "description": "<div lang=\"en\">\n<p>\nThe tree view represents a hierarchical list of objects. \n<br>Each object has a reference to child objects. Child objects can be of any class. \n<br>If parent and children are of the same class (as in this example), then tree level can be recursive. Its depth is determined by references.\n</p>\n</div>\n<div lang=\"ru\">\n<p>\nДревовидный вид представляет иерархический список объектов. \n<br>Каждый объект имеет ссылку на дочерние объекты. Дочерние объекты могут быть любого класса. \n<br>Если родитель и дети одного класса (как в данном примере), то древовидный уровень может быть рекурсивным. Его глубина определяется связями.\n</p>\n</div>",
       "orderNumber": 10,
       "class": "treeViewCategory",
-      "view": "rootList",
+      "view": "rootTreeList",
       "options": {
         "showDescription": true
       }
