@@ -1,25 +1,8 @@
-# Evado Demo
+# Evado Demo App
 
 Presentation of features of 
 [Evado Declarative Framework](https://github.com/mkhorin/evado)
 for rapid web app development.
-
-- Simple data types: strings, numbers, booleans, dates.
-- Enumerations for labeled values.
-- Calculated and service values.
-- Reference data types.
-    - Dependent data for object selection.
-    - Intermediate links for relationship between classes.
-- Grouping attributes for easy perception.
-- Data validation with built-in and custom rules.
-- Views of objects for special cases.
-- Action binders for client-side actions with attributes.
-- Behaviors for extending functionality of classes and views.
-- Files with S3 storage.
-- Workflows for managing object states.
-- Inheritance for extending existing class parameters in a new class.
-- Dynamic navigation nodes.
-- Listeners for tracking events.
 
 ![Evado Declarative Framework](https://github.com/mkhorin/evado/blob/master/doc/evado-framework-steps.jpg)
 
