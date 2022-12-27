@@ -8,7 +8,7 @@
       "$oid": "6201f95bf0dce7500048cdca"
     },
     "integer": 25,
-    "string": "Simple utility value",
+    "string": "string",
     "float": 42.75,
     "boolean": true,
     "text": "Semper gravida dictumst ut cursus. \nUrna Nulla dui mus sodales nascetur augue.",

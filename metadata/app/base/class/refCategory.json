@@ -27,6 +27,33 @@
       "unique": false
     },
     {
+      "name": "articles",
+      "label": "Articles",
+      "type": "backref",
+      "commands": [
+        "edit"
+      ],
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": true,
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "refAttr": "category",
+      "refClass": "refArticle",
+      "readOnly": true,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
       "name": "_class",
       "label": "Metadata class",
       "type": "string",
@@ -39,7 +66,7 @@
       "hideEmpty": false,
       "history": false,
       "multiple": false,
-      "orderNumber": 20,
+      "orderNumber": 30,
       "sortable": false,
       "sortableRelation": false,
       "readOnly": true,

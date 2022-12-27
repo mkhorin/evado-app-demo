@@ -13,7 +13,7 @@ module.exports = {
         hint: 'Set simple string value',
         confirmation: ' Execute simple utility now?',
         css: 'btn-outline-success',
-        frontClass: 'Simple',
+        clientClass: 'Simple',
         targetClass: 'simpleData',
         actions: ['update']
     }

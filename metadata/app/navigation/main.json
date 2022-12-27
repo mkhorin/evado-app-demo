@@ -34,7 +34,7 @@
       "parent": "references",
       "name": "articles",
       "label": "Articles",
-      "description": "<div lang=\"en\">\nReference types define relationships between objects. The link can be with one or more objects.\n</div>\n<div lang=\"ru\">\nСсылочные типы определяют связь между объектами. Связь может быть с одним или множеством объектов.\n</div>",
+      "description": "<div lang=\"en\">\n<p>\nReference types define relationships between objects. The link can be with one or more objects.\n</p><ul>\n<li>A reference contains identifier of linked object in attribute of the current object (in case of multiple relation, an array of identifiers).</li>\n<li>A back reference gets identifier of the current object from attribute of another class.</li>\n</ul><p>\nArticle has a reference to category and a back reference to comments that contain a reference to the article.\n</p>\n</div>\n<div lang=\"ru\">\n<p>\nСсылочные типы определяют связь между объектами. Связь может быть с одним или множеством объектов. \n</p><ul>\n<li>Обычная ссылка хранит идентификатор привязанного объекта в атрибуте текущего объекта (при множественной связи - массив идентификаторов).</li>\n<li>Обратная ссылка  получает идентификатор текущего объекта из атрибута объекта другого класса.</li>\n</ul><p>\nСтатья имеет ссылку на категорию и обратную ссылку на комментарии, которые содержат ссылку  на статью.\n</p>\n</div>",
       "orderNumber": 10,
       "class": "refArticle",
       "options": {
