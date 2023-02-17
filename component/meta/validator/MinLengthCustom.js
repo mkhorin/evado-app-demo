@@ -25,6 +25,7 @@ module.exports = class MinLengthCustomValidator extends Base {
     }
 
     getMessage (min) {
-        return this.createClientMessage(this.message, 'Value should contain at least {min} chr. (sum String and Email lengths)', {min});
+        const defaults = 'Value should contain at least {min} chr. (sum String and Email lengths)';
+        return this.createClientMessage(this.message, defaults, {min});
     }
 };
