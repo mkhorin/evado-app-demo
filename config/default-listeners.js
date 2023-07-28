@@ -11,4 +11,8 @@ module.exports = [{
         'meta.base.transit.listened'
     ],
     handlers: 'eventTracking'
+}, {
+    description: 'New simple data notification',
+    events: 'meta.base.create.simpleData',
+    notifications: 'newSimpleData'
 }];
