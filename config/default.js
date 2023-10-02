@@ -61,10 +61,11 @@ module.exports = {
             Class: require('evado-module-account/Module')
         },
         'admin': {
-            Class: require('evado-module-admin/Module')
+            Class: require('../module/admin/Module')
         }
     },
     assets: require('./default-assets'),
+    classes: require('./default-classes'),
     users: require('./default-users'),
     userFilters: require('./default-userFilters'),
     security: require('./default-security'),

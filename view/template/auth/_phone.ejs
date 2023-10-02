@@ -1,0 +1,20 @@
+<%
+const attr = 'phone';
+const name = model.getFormAttrName(attr);
+const label = model.getAttrLabel(attr);
+const value = model.get(attr);
+const required = model.isAttrRequired(attr) ? ' required' : '';
+const error = _t(model.getFirstError(attr));
+%>
+<div class="form-attr form-group <%- required %> <%- error ? ' has-error' : '' %>">
+  <div class="input-group">
+    <input name="<%- name %>" type="text" value="<%- value %>" <%- required %>
+           class="form-control" placeholder="<%- _t(label) %>" autocomplete="off"
+           data-inputmask="'mask': '9-999-999-99-99'"
+           data-inputmask-removemaskonsubmit="true">
+    <span class="input-group-text text-body-secondary">
+      <i class="fas fa-phone"></i>
+    </span>
+  </div>
+  <div class="error-block"><%= error %></div>
+</div>
